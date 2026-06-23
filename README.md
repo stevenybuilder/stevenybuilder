@@ -212,7 +212,6 @@ Together is a real-time conversation system for people separated by distance and
 
 <table><tbody>
 <tr><td><b>Intuit AI/ML Hackathon</b></td><td>2nd Place, June 2026 - calibrated underwriting PDs and profit-aware decision logic</td></tr>
-<tr><td><b>Experian NIKE2 Cloud Modernization Award</b></td><td>April 2026 - cloud modernization and enterprise platform impact</td></tr>
 <tr><td><b>Google DeepMind Hackathon</b></td><td>Best Use of DigitalOcean, March 2026 - multimodal meeting memory and agent workflow</td></tr>
 <tr><td><b>Experian Global AI Hackathon</b></td><td>1st Place, November 2025 - AI-driven credit optimization MVP</td></tr>
 <tr><td><b>AI Valley Robotics Hackathon</b></td><td>Best Use of Convex, November 2025</td></tr>
