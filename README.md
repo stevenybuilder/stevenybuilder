@@ -16,7 +16,7 @@
 
 <table><tbody>
 <tr><td><b>Languages</b></td><td>Python, Kotlin, JavaScript, TypeScript, SQL, HTML/CSS, shell</td></tr>
-<tr><td><b>ML/Data</b></td><td>CatBoost, scikit-learn, pandas, NumPy, calibration, conformal intervals, Bayesian scoring, survival/censoring, causal caution</td></tr>
+<tr><td><b>ML/Data</b></td><td>CatBoost, scikit-learn, pandas, NumPy, calibration, conformal intervals, Bayesian scoring, Markov chains, survival/censoring, causal caution</td></tr>
 <tr><td><b>AI Systems</b></td><td>LLM tool loops, MCP servers, RAG/retrieval, golden-dataset evals, deterministic gates, generated-code validation</td></tr>
 <tr><td><b>Cloud/Infra</b></td><td>Google Cloud Run, BigQuery, Gemini, Vertex AI, Databricks Asset Bundles, Delta Lake, MLflow, Docker, FastAPI, React</td></tr>
 </tbody></table>
