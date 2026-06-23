@@ -10,7 +10,7 @@
 
 <br/>
 
-> **AI/ML systems builder and product-minded operator | Python agents, LLM evals, RAG/MCP, GCP, Databricks, and statistically grounded decision systems**
+> **AI/ML systems builder | Python agents, LLM evals, RAG/MCP, GCP, Databricks, and statistically grounded decision systems**
 >
 > I build AI-native systems where models, data pipelines, cloud infrastructure, and production workflows meet. My work spans agent orchestration, explainable ML, calibrated decision systems, real-time WebSocket backends, LLM evaluation, and cloud-deployed data products.
 
@@ -18,7 +18,7 @@
 <tr><td><b>Languages</b></td><td>Python, Kotlin, JavaScript, TypeScript, SQL, HTML/CSS, shell</td></tr>
 <tr><td><b>ML/Data</b></td><td>CatBoost, scikit-learn, pandas, NumPy, calibration, conformal intervals, Bayesian scoring, survival/censoring, causal caution</td></tr>
 <tr><td><b>AI Systems</b></td><td>LLM tool loops, MCP servers, RAG/retrieval, golden-dataset evals, deterministic gates, generated-code validation</td></tr>
-<tr><td><b>Cloud/Infra</b></td><td>Google Cloud Run, BigQuery, Gemini, Vertex AI, Databricks Apps, Delta Lake, MLflow, Docker, FastAPI, React</td></tr>
+<tr><td><b>Cloud/Infra</b></td><td>Google Cloud Run, BigQuery, Gemini, Vertex AI, Databricks Asset Bundles, Delta Lake, MLflow, Docker, FastAPI, React</td></tr>
 </tbody></table>
 
 <br/>
@@ -46,10 +46,10 @@ Before enterprise AI product work, I did cognitive neuroscience research at UC I
 CareGap ranks likely medical deserts, estimates confidence, surfaces provider evidence, and recommends concrete deployment actions for healthcare planners. It combines lakehouse-style data workflows with statistical uncertainty layers so users can inspect not just where gaps exist, but why the system believes they exist.
 
 <table><tbody>
-<tr><td><b>Data pipeline</b></td><td>Bronze/silver/gold flow for facility records, geography, provider claims, district health indicators, and review queues</td></tr>
+<tr><td><b>Data pipeline</b></td><td>Bronze/silver/gold flow for facility records, geography, provider claims, district health indicators, and review queues; bundled as Databricks serverless jobs</td></tr>
 <tr><td><b>Modeling</b></td><td>CatBoost capacity and doctor-count imputers, native categorical handling, log1p targets, 5-fold OOF validation, clipped predictions, MLflow logging</td></tr>
 <tr><td><b>Uncertainty</b></td><td>Bayesian validity posterior, empirical-Bayes trust smoothing, Wilson intervals, split-conformal facility trust sets</td></tr>
-<tr><td><b>Stack</b></td><td>Python, Databricks Apps, Delta Lake, MLflow, Streamlit, CatBoost, PyDeck, Google Cloud Run, Docker</td></tr>
+<tr><td><b>Stack</b></td><td>Python, Databricks Apps, Databricks SQL connector, Delta Lake, Unity Catalog, MLflow, Streamlit, CatBoost, PyDeck/H3, Google Cloud Run, Docker</td></tr>
 </tbody></table>
 
 <div align="center">
@@ -70,7 +70,8 @@ Guardia brings production-risk analysis into the developer workflow before code 
 <tr><td><b>IDE engineering</b></td><td>Native IntelliJ plugin with PSI, Git4Idea diff extraction, PasswordSafe credentials, tool windows, editor highlights, and undoable WriteCommandAction patches</td></tr>
 <tr><td><b>Risk engine</b></td><td>Sub-5ms deterministic Kotlin baseline plus bounded OpenAI/Codex Responses API override grounded in incident citations</td></tr>
 <tr><td><b>Retrieval</b></td><td>Datadog incident context, BM25/structural matching, reciprocal-rank fusion, and offending-code snippet scans</td></tr>
-<tr><td><b>Stack</b></td><td>Kotlin, IntelliJ Platform SDK, Gradle, JDK 21, Python fixture generation, Datadog APIs, Supabase, OpenAI</td></tr>
+<tr><td><b>Stack</b></td><td>Kotlin, IntelliJ Platform SDK, Gradle, JDK 21, OkHttp, Moshi, Python fixture generation, Datadog APIs, Supabase, OpenAI</td></tr>
+<tr><td><b>Verification</b></td><td>28 Kotlin test files plus remote-robot UI smoke-test source set</td></tr>
 </tbody></table>
 
 <div align="center">
@@ -90,9 +91,10 @@ Team build for the Intuit TechWeek NYC 2026 Explainable ML hackathon. I owned mo
 
 <table><tbody>
 <tr><td><b>Decision problem</b></td><td>Approve or decline SMB loan applicants to maximize realized portfolio profit under APR, origination-fee, LGD, and default-definition constraints</td></tr>
-<tr><td><b>ML depth</b></td><td>Calibrated PD modeling, uncertainty intervals, profit break-even thresholds, reject-inference awareness, leakage controls, missingness indicators</td></tr>
-<tr><td><b>Challenge scope</b></td><td>Loan decisions, default trajectory forecasting, causal counterfactual PDs, and explainable methodology defense</td></tr>
-<tr><td><b>Stack</b></td><td>Python, pandas/scikit-learn-style modeling, calibration pipelines, CSV submission validators, explainable ML writeup workflow</td></tr>
+<tr><td><b>ML depth</b></td><td>Calibrated PD modeling, uncertainty intervals, profit break-even thresholds, reject-inference awareness, leakage controls, MNAR missingness indicators</td></tr>
+<tr><td><b>Challenge scope</b></td><td>Loan decisions, default trajectory forecasting, causal counterfactual PDs, monotonicity checks, and explainable methodology defense</td></tr>
+<tr><td><b>Stack</b></td><td>Python, pandas, NumPy, scikit-learn, SciPy, statsmodels, HGB/value ensembles, calibration pipelines, CSV validators</td></tr>
+<tr><td><b>Validation</b></td><td>Submission schema/ID/range/monotonicity gate with PASS status before upload</td></tr>
 </tbody></table>
 
 <div align="center">
@@ -114,7 +116,8 @@ Sentinel treats agent behavior as a security surface. Independent investigators 
 <tr><td><b>Core loop</b></td><td>Supervisor agent, payment agent, risk/compliance/forensics investigators, verdict board, deterministic policy gate</td></tr>
 <tr><td><b>Concurrency</b></td><td>Python 3.11 asyncio.TaskGroup dispatch for parallel sub-agent investigations with structured cancellation</td></tr>
 <tr><td><b>Learning system</b></td><td>Generated Python scoring functions validated by AST parse, attack/clean regression checks, forbidden-token scan, and RestrictedPython execution</td></tr>
-<tr><td><b>Stack</b></td><td>Python, FastAPI, React, Vite, JavaScript, XYFlow, Aerospike, RestrictedPython, Auth0, Docker, GitHub Actions</td></tr>
+<tr><td><b>Stack</b></td><td>Python, FastAPI, Pydantic, Anthropic async client, React, Vite, JavaScript, XYFlow, Zustand, Aerospike, RestrictedPython, Auth0, Docker</td></tr>
+<tr><td><b>Verification</b></td><td>22 pytest files plus GitHub Actions backend deployment workflow to EC2</td></tr>
 </tbody></table>
 
 <div align="center">
@@ -136,7 +139,8 @@ This system transcribes live browser audio, extracts commitments, checks sentime
 <tr><td><b>Realtime pipeline</b></td><td>Browser PCM at 16kHz, WebSocket transport, Cloud STT streaming, transcript buffering, Gemini extraction, deterministic sentiment gate</td></tr>
 <tr><td><b>Reliability</b></td><td>Per-session dataclass registry, background task retention, proactive STT reconnect before streaming limits, async action fanout</td></tr>
 <tr><td><b>Actions/data</b></td><td>Slack updates, Calendar events, Gmail summaries, document revision, BigQuery NL-to-SQL reports, DigitalOcean meeting memory</td></tr>
-<tr><td><b>Stack</b></td><td>Python, FastAPI, JavaScript, HTML/Tailwind, WebSockets, Gemini, Google Cloud STT/Vision, BigQuery, Cloud Run, Terraform</td></tr>
+<tr><td><b>Stack</b></td><td>Python, FastAPI, JavaScript, HTML/Tailwind, WebSockets, Gemini, Google Cloud STT/Vision, BigQuery, Slack SDK, DigitalOcean inference/KB, Cloud Run, Terraform</td></tr>
+<tr><td><b>Verification</b></td><td>8 regression/smoke tests with GitHub Actions install, smoke, and test workflow</td></tr>
 </tbody></table>
 
 <div align="center">
@@ -154,10 +158,10 @@ This system transcribes live browser audio, extracts commitments, checks sentime
 Together is a real-time conversation system for people separated by distance and language. It translates speech bidirectionally, narrates the other person's environment on request, then turns call moments into a generated storybook and memory video.
 
 <table><tbody>
-<tr><td><b>Realtime mode</b></td><td>FastAPI/WebSocket rooms, Gemini Live bidirectional speech translation, translated captions, session affinity on Cloud Run</td></tr>
-<tr><td><b>Vision/memory</b></td><td>Vision-triggered environment narration, storybook generation through Gemini interleaved output, memory video pipeline through Veo</td></tr>
-<tr><td><b>Reliability</b></td><td>ElevenLabs fallback path and billing monitor controls for demo safety</td></tr>
-<tr><td><b>Stack</b></td><td>Python, FastAPI, WebSockets, Gemini Live, Google Cloud Vision, Veo, ElevenLabs, HTML/JavaScript, Docker, Cloud Run</td></tr>
+<tr><td><b>Realtime mode</b></td><td>FastAPI/WebSocket rooms, per-participant streaming sessions, Gemini Live bidirectional speech translation, translated captions, session affinity on Cloud Run</td></tr>
+<tr><td><b>Vision/memory</b></td><td>Vision scene analysis with semaphores, markdown transcript logging, storybook generation through Gemini interleaved output, memory video pipeline through Veo</td></tr>
+<tr><td><b>Reliability</b></td><td>Deepgram STT sessions, ElevenLabs/Gradium TTS fallback path, billing monitor controls for demo safety</td></tr>
+<tr><td><b>Stack</b></td><td>Python, FastAPI, WebSockets, Gemini Live, Google Cloud Vision, Deepgram, Veo, ElevenLabs, HTML/JavaScript, Docker, Cloud Run</td></tr>
 </tbody></table>
 
 <br/>
