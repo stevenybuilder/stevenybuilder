@@ -10,9 +10,9 @@
 
 <br/>
 
-> **AI/ML systems builder | representation learning, evaluation design, calibrated decision systems, and 0-to-1 products on GCP and Databricks**
+> **Representation learning and evaluation design | JEPA-family encoders, calibrated decision systems, and 0-to-1 products on GCP and Databricks**
 >
-> I build AI-native systems where models, data pipelines, cloud infrastructure, and production workflows meet. My work spans representation learning and probing of frozen encoders, agent orchestration, explainable ML, calibrated decision systems, real-time backends, LLM evaluation, and cloud-deployed data products.
+> I build AI-native systems where models, data pipelines, cloud infrastructure, and production workflows meet — representation learning on 3D imaging, agent orchestration, explainable ML, calibrated decision systems, real-time backends, and cloud-deployed data products.
 
 <table><tbody>
 <tr><td><b>Languages</b></td><td>Python, Kotlin, JavaScript, TypeScript, SQL, HTML/CSS</td></tr>
@@ -26,7 +26,7 @@
 
 ## Technical Throughline
 
-Before enterprise AI product work, I did cognitive neuroscience research at UC Irvine's Center for the Neurobiology of Learning and Memory / Stark Lab, using Python for fMRI image processing and analysis. The lab's core question is **pattern separation** — how the hippocampus keeps highly similar experiences from collapsing into the same memory — measured behaviorally with the Mnemonic Similarity Task and its graded lures. I also worked on the spatial side: navigation experiments and simulations, where the constructs are place and grid coding, allocentric vs. egocentric frames, and cognitive maps.
+Before enterprise AI product work, I did cognitive neuroscience research at UC Irvine's Center for the Neurobiology of Learning and Memory / Stark Lab, using Python for fMRI image processing and analysis. The lab's core question is **pattern separation** — how the hippocampus keeps highly similar experiences from collapsing into the same memory. I also worked on the spatial side: navigation experiments and simulations, where the constructs are place and grid coding, allocentric vs. egocentric frames, and cognitive maps.
 
 That work was representation learning under a different name. Pattern separation is a claim about representation geometry: take overlapping inputs and re-embed them so near-duplicates stay separately retrievable. It is also the question I now ask of a trained encoder, and the reason I probe models on the hardest, most confusable inputs rather than the average case. The rest of the habit carries over directly: define the measurement problem, separate signal from confounders, quantify uncertainty, and treat model outputs as evidence rather than magic.
 
@@ -54,6 +54,29 @@ Built for the Claude Life Sciences hackathon with Gladstone Institutes. A founda
 <tr><td><b>Harmonization</b></td><td>Parametric ComBat with empirical-Bayes shrinkage, deliberately label-blind: age and sex protected, diagnosis excluded so the correction never sees the outcome. Cohort separability drops 0.9996 → 0.5634 while AD-vs-CN survives at 0.8313 cross-cohort</td></tr>
 <tr><td><b>Agentic layer</b></td><td>Claude Sonnet router with enum-constrained routing plus an Opus agent that reads the evidence and drafts the next experiment; Claude never produces a number — every figure comes from the probe</td></tr>
 <tr><td><b>Stack</b></td><td>Python, PyTorch, MONAI, deepbet, scikit-learn, NumPy, Anthropic API, FastAPI, Docker, Google Cloud Run, Colab GPU runtimes</td></tr>
+</tbody></table>
+
+<div align="center">
+
+---
+
+### Intuit Data Science Competition: Model Performance
+
+**Explainable ML system for small-business lending decisions.**
+
+[![Team Repo](https://img.shields.io/badge/team%20repo-ron2k1%2Fintuit--techweek--smb--underwriting-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ron2k1/intuit-techweek-smb-underwriting)
+[![Hackathon](https://img.shields.io/badge/Intuit%20TechWeek-NYC%202026-236CFF?style=for-the-badge)](https://github.com/intuit/intuit-techweek-nyc-hackathon-2026)
+
+</div>
+
+Team build for the Intuit TechWeek NYC 2026 Explainable ML hackathon. I owned modeling and calibration work for underwriting decisions: estimating probability of default, producing 90% intervals, and iterating on profit-aware approval logic under selection bias, leakage risk, censoring, and missing-not-at-random bank-feed data.
+
+<table><tbody>
+<tr><td><b>Decision problem</b></td><td>Approve or decline SMB loan applicants to maximize realized portfolio profit under APR, origination-fee, LGD, and default-definition constraints</td></tr>
+<tr><td><b>ML depth</b></td><td>Calibrated PD modeling, uncertainty intervals, profit break-even thresholds, reject-inference awareness, leakage controls, MNAR missingness indicators</td></tr>
+<tr><td><b>Challenge scope</b></td><td>Loan decisions, default trajectory forecasting, causal counterfactual PDs, monotonicity checks, and explainable methodology defense</td></tr>
+<tr><td><b>Stack</b></td><td>Python, pandas, NumPy, scikit-learn, SciPy, statsmodels, HGB/value ensembles, calibration pipelines, CSV validators</td></tr>
+<tr><td><b>Validation</b></td><td>Submission schema/ID/range/monotonicity gate with PASS status before upload</td></tr>
 </tbody></table>
 
 <div align="center">
@@ -99,29 +122,6 @@ Guardia brings production-risk analysis into the developer workflow before code 
 <tr><td><b>Retrieval</b></td><td>Datadog incident context, BM25/structural matching, reciprocal-rank fusion, and offending-code snippet scans</td></tr>
 <tr><td><b>Stack</b></td><td>Kotlin, IntelliJ Platform SDK, Gradle, JDK 21, OkHttp, Moshi, Python fixture generation, Datadog APIs, Supabase, OpenAI</td></tr>
 <tr><td><b>Verification</b></td><td>28 Kotlin test files plus remote-robot UI smoke-test source set</td></tr>
-</tbody></table>
-
-<div align="center">
-
----
-
-### Intuit SMB Underwriting
-
-**Explainable ML system for small-business lending decisions.**
-
-[![Team Repo](https://img.shields.io/badge/team%20repo-ron2k1%2Fintuit--techweek--smb--underwriting-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ron2k1/intuit-techweek-smb-underwriting)
-[![Hackathon](https://img.shields.io/badge/Intuit%20TechWeek-NYC%202026-236CFF?style=for-the-badge)](https://github.com/intuit/intuit-techweek-nyc-hackathon-2026)
-
-</div>
-
-Team build for the Intuit TechWeek NYC 2026 Explainable ML hackathon. I owned modeling and calibration work for underwriting decisions: estimating probability of default, producing 90% intervals, and iterating on profit-aware approval logic under selection bias, leakage risk, censoring, and missing-not-at-random bank-feed data.
-
-<table><tbody>
-<tr><td><b>Decision problem</b></td><td>Approve or decline SMB loan applicants to maximize realized portfolio profit under APR, origination-fee, LGD, and default-definition constraints</td></tr>
-<tr><td><b>ML depth</b></td><td>Calibrated PD modeling, uncertainty intervals, profit break-even thresholds, reject-inference awareness, leakage controls, MNAR missingness indicators</td></tr>
-<tr><td><b>Challenge scope</b></td><td>Loan decisions, default trajectory forecasting, causal counterfactual PDs, monotonicity checks, and explainable methodology defense</td></tr>
-<tr><td><b>Stack</b></td><td>Python, pandas, NumPy, scikit-learn, SciPy, statsmodels, HGB/value ensembles, calibration pipelines, CSV validators</td></tr>
-<tr><td><b>Validation</b></td><td>Submission schema/ID/range/monotonicity gate with PASS status before upload</td></tr>
 </tbody></table>
 
 <div align="center">
