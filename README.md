@@ -93,8 +93,10 @@ Built for the Claude Life Sciences hackathon with Gladstone Institutes. The prem
 Team build for the Intuit TechWeek NYC 2026 Explainable ML hackathon — 2nd place; I owned modeling and calibration. The objective was stated as an objective function rather than a metric: approve or decline to maximize realized portfolio profit under APR, origination-fee, LGD, and default-definition constraints — which makes the threshold a business decision and the calibration the thing that has to be right.
 
 <table><tbody>
-<tr><td width="22%"><b>ML depth</b></td><td>Calibrated PD modeling with 90% intervals, profit break-even thresholds, leakage controls, MNAR missingness indicators for bank-feed gaps, and selection-bias handling on an observed-approvals-only population. Calibration was checked on a held-out split at hackathon data scale — treat as directional, not a production calibration claim</td></tr>
+<tr><td width="22%"><b>Decision problem</b></td><td>Approve or decline SMB loan applicants to maximize realized portfolio profit under APR, origination-fee, LGD, and default-definition constraints — scored against a held-out outcome set</td></tr>
+<tr><td width="22%"><b>ML depth</b></td><td>Calibrated PD modeling with 90% intervals, profit break-even thresholds, reject-inference awareness, leakage controls, MNAR missingness indicators for bank-feed gaps, and selection-bias handling on an observed-approvals-only population. Calibration was checked on a held-out split at hackathon data scale — treat as directional, not a production calibration claim</td></tr>
 <tr><td width="22%"><b>Enforced gate</b></td><td>A schema, ID-range, and monotonicity gate had to return PASS before any submission uploaded; a non-monotonic PD curve blocked the run</td></tr>
+<tr><td width="22%"><b>Stack</b></td><td>Python, pandas, NumPy, scikit-learn, SciPy, statsmodels, HGB/value ensembles, calibration pipelines, CSV validators</td></tr>
 <tr><td width="22%"><b>Scoped out</b></td><td>Causal counterfactual PDs. The observational data could not identify the effect, and a confidently wrong counterfactual is worse than an absent one</td></tr>
 </tbody></table>
 
@@ -116,7 +118,9 @@ CareGap ranks likely medical deserts and attaches an uncertainty layer to every 
 
 <table><tbody>
 <tr><td width="22%"><b>Uncertainty</b></td><td>Bayesian validity posterior, empirical-Bayes trust smoothing across sparse facilities, Wilson intervals, split-conformal facility trust sets. Coverage was targeted but not empirically validated at demo scope — I would not quote a coverage number</td></tr>
-<tr><td width="22%"><b>Modeling / data</b></td><td>CatBoost capacity and doctor-count imputers with native categorical handling and log1p targets, 5-fold OOF validation, MLflow logging, over a bronze/silver/gold Delta flow bundled as Databricks serverless jobs</td></tr>
+<tr><td width="22%"><b>Modeling</b></td><td>CatBoost capacity and doctor-count imputers with native categorical handling, log1p targets, 5-fold OOF validation, clipped predictions, MLflow logging</td></tr>
+<tr><td width="22%"><b>Data pipeline</b></td><td>Bronze/silver/gold Delta flow for facility records, geography, provider claims, district health indicators, and review queues; bundled as Databricks serverless jobs under Unity Catalog</td></tr>
+<tr><td width="22%"><b>Stack</b></td><td>Python, Databricks Apps, Databricks SQL connector, Delta Lake, MLflow, Streamlit, CatBoost, PyDeck/H3, Google Cloud Run, Docker</td></tr>
 </tbody></table>
 
 <div align="center">
@@ -136,7 +140,10 @@ Sentinel checks a payment agent's claims against ground truth before the action 
 
 <table><tbody>
 <tr><td width="22%"><b>Learning loop</b></td><td>Generated scoring functions gated by AST parse, attack/clean regression checks, and a forbidden-token scan before hot-deploy. RestrictedPython narrows the execution surface but is not a sandbox — the real containment is the regression gate, and I would not ship this against a determined adversary without process isolation</td></tr>
+<tr><td width="22%"><b>Core loop</b></td><td>Supervisor agent, payment agent, risk/compliance/forensics investigators, verdict board, deterministic policy gate</td></tr>
 <tr><td width="22%"><b>Concurrency</b></td><td>Python 3.11 <code>asyncio.TaskGroup</code> dispatch for parallel sub-agent investigations with structured cancellation</td></tr>
+<tr><td width="22%"><b>Stack</b></td><td>Python, FastAPI, Pydantic, Anthropic async client, React, Vite, XYFlow, Zustand, Aerospike, RestrictedPython, Auth0, Docker</td></tr>
+<tr><td width="22%"><b>Verification</b></td><td>22 pytest files plus a GitHub Actions backend deployment workflow to EC2</td></tr>
 </tbody></table>
 
 <br/>
@@ -144,9 +151,9 @@ Sentinel checks a payment agent's claims against ground truth before the action 
 **Also shipped**
 
 <table><tbody>
-<tr><td width="22%"><b><a href="https://github.com/stevenybuilder/guardia">Guardia</a></b></td><td>Deployment-risk analysis as a native IntelliJ plugin — deterministic Kotlin risk baseline with a bounded LLM override grounded in cited Datadog incidents; PSI, Git4Idea diff extraction, BM25 + reciprocal-rank fusion retrieval</td></tr>
-<tr><td width="22%"><b><a href="https://github.com/stevenybuilder/ai-meeting-autopilot">AI Meeting Autopilot</a></b></td><td><a href="https://meeting-agent-ynzg64zhoa-uc.a.run.app/">Live</a> · realtime meeting agent: browser PCM at 16kHz over WebSockets, streaming STT with proactive reconnect, commitment extraction, async action fanout to Slack/Calendar/Gmail/BigQuery</td></tr>
-<tr><td width="22%"><b><a href="https://github.com/stevenybuilder/together-presence-agent">Together</a></b></td><td>Bidirectional live speech translation with vision scene narration, then storybook and memory-video generation from call moments; FastAPI/WebSocket rooms with session affinity on Cloud Run</td></tr>
+<tr><td width="22%"><b><a href="https://github.com/stevenybuilder/guardia">Guardia</a></b></td><td>Deployment-risk analysis as a native IntelliJ plugin — a sub-5ms deterministic Kotlin risk baseline with a bounded OpenAI/Codex override grounded in cited Datadog incidents. PSI, Git4Idea diff extraction, PasswordSafe credentials, undoable <code>WriteCommandAction</code> patches; BM25 + structural matching with reciprocal-rank fusion. Kotlin, IntelliJ Platform SDK, Gradle, JDK 21, OkHttp, Moshi, Supabase · 28 Kotlin test files plus a remote-robot UI smoke-test source set</td></tr>
+<tr><td width="22%"><b><a href="https://github.com/stevenybuilder/ai-meeting-autopilot">AI Meeting Autopilot</a></b></td><td><a href="https://meeting-agent-ynzg64zhoa-uc.a.run.app/">Live</a> · multimodal realtime meeting agent: browser PCM at 16kHz over WebSockets, Cloud STT streaming with proactive reconnect before stream limits, Gemini commitment extraction behind a deterministic sentiment gate, async action fanout to Slack/Calendar/Gmail/BigQuery NL-to-SQL. Per-session dataclass registry with background task retention. Python, FastAPI, Gemini, Google Cloud STT/Vision, Cloud Run, Terraform · 8 regression/smoke tests in CI</td></tr>
+<tr><td width="22%"><b><a href="https://github.com/stevenybuilder/together-presence-agent">Together</a></b></td><td>Bidirectional live speech translation with vision scene narration, then storybook and memory-video generation from call moments. FastAPI/WebSocket rooms with per-participant streaming sessions and session affinity on Cloud Run; Gemini Live, Deepgram STT, ElevenLabs/Gradium TTS fallback, Veo video, plus billing-monitor controls for demo safety</td></tr>
 </tbody></table>
 
 <br/>
