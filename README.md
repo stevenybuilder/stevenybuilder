@@ -10,9 +10,9 @@
 
 <br/>
 
-> **Representation learning and evaluation design | JEPA-family encoders, calibrated decision systems, and 0-to-1 products on GCP and Databricks**
+> I build ML systems end to end — frozen JEPA-family encoders on 3D brain MRI, probability-of-default models for lending decisions, multi-agent orchestration, and lakehouse data products on Databricks and GCP.
 >
-> I build AI-native systems where models, data pipelines, cloud infrastructure, and production workflows meet — representation learning on 3D imaging, agent orchestration, explainable ML, calibrated decision systems, real-time backends, and cloud-deployed data products.
+> A lot of the work is testing whether a model's signal is real or an artifact: confound ablation, leakage tests, permutation nulls, and uncertainty intervals.
 
 <table><tbody>
 <tr><td><b>Languages</b></td><td>Python, Kotlin, JavaScript, TypeScript, SQL, HTML/CSS</td></tr>
@@ -26,9 +26,7 @@
 
 ## Technical Throughline
 
-Before enterprise AI product work, I did cognitive neuroscience research at UC Irvine's Center for the Neurobiology of Learning and Memory / Stark Lab, using Python for fMRI image processing and analysis. The lab's core question is **pattern separation** — how the hippocampus keeps highly similar experiences from collapsing into the same memory. I also worked on the spatial side: navigation experiments and simulations, where the constructs are place and grid coding, allocentric vs. egocentric frames, and cognitive maps.
-
-That work was representation learning under a different name. Pattern separation is a claim about representation geometry: take overlapping inputs and re-embed them so near-duplicates stay separately retrievable. It is also the question I now ask of a trained encoder, and the reason I probe models on the hardest, most confusable inputs rather than the average case. The rest of the habit carries over directly: define the measurement problem, separate signal from confounders, quantify uncertainty, and treat model outputs as evidence rather than magic.
+Before enterprise AI product work, I did cognitive neuroscience research at UC Irvine's Center for the Neurobiology of Learning and Memory / Stark Lab, using Python for fMRI image processing and analysis. The work covered pattern separation — how the hippocampus keeps similar experiences from collapsing into the same memory — and spatial navigation experiments and simulations. That background still shapes how I build: define the measurement problem, separate signal from confounders, and quantify uncertainty.
 
 <br/>
 
@@ -239,7 +237,6 @@ Together is a real-time conversation system for people separated by distance and
 ## Recent Wins
 
 <table><tbody>
-<tr><td><b>Claude Life Sciences Hackathon</b></td><td>With Gladstone Institutes, July 2026 - frozen-encoder probing and confound gating on brain MRI</td></tr>
 <tr><td><b>Intuit AI/ML Hackathon</b></td><td>2nd Place, June 2026 - calibrated underwriting PDs and profit-aware decision logic</td></tr>
 <tr><td><b>Google DeepMind Hackathon</b></td><td>Best Use of DigitalOcean, March 2026 - multimodal meeting memory and agent workflow</td></tr>
 <tr><td><b>Experian Global AI Hackathon</b></td><td>1st Place, November 2025 - AI-driven credit optimization MVP</td></tr>
