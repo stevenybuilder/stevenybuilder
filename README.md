@@ -10,9 +10,9 @@
 
 <br/>
 
-> I build ML systems end to end — frozen JEPA-family encoders on 3D brain MRI, probability-of-default models for lending decisions, multi-agent orchestration, and lakehouse data products on Databricks and GCP.
+> I build ML systems — most recently frozen JEPA-family encoders on 3D brain MRI, before that probability-of-default models for lending, agent orchestration, and data products on Databricks and GCP.
 >
-> A lot of the work is testing whether a model's signal is real or an artifact: confound ablation, leakage tests, permutation nulls, and uncertainty intervals.
+> Most of the time goes into the unglamorous half: is the signal real, or is the model just reading the scanner? Confound ablation, leakage tests, permutation nulls.
 
 <table><tbody>
 <tr><td><b>Languages</b></td><td>Python, Kotlin, JavaScript, TypeScript, SQL, HTML/CSS</td></tr>
