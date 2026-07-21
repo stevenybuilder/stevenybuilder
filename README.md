@@ -11,8 +11,6 @@
 <br/>
 
 > I build ML systems — most recently frozen JEPA-family encoders on 3D brain MRI, before that probability-of-default models for lending, agent orchestration, and data products on Databricks and GCP.
->
-> Most of the time goes into the unglamorous half: is the signal real, or is the model just reading the scanner? Confound ablation, leakage tests, permutation nulls.
 
 <table><tbody>
 <tr><td><b>Languages</b></td><td>Python, Kotlin, JavaScript, TypeScript, SQL, HTML/CSS</td></tr>
