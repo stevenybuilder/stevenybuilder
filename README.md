@@ -39,6 +39,12 @@ Before enterprise AI product work, I did cognitive neuroscience research at UC I
 [![Repo](https://img.shields.io/badge/NeuroAD-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/stevenybuilder/NeuroAD)
 [![Hackathon](https://img.shields.io/badge/Claude%20Life%20Sciences-Gladstone%20Institutes-D97757?style=for-the-badge)](https://github.com/stevenybuilder/NeuroAD)
 
+<a href="https://www.youtube.com/watch?v=Q1F49sy4BC0">
+  <img src="https://i.ytimg.com/vi/Q1F49sy4BC0/maxresdefault.jpg" alt="Watch the NeuroAD demo" width="640" />
+</a>
+
+▶ **[Watch the demo video](https://www.youtube.com/watch?v=Q1F49sy4BC0)**
+
 </div>
 
 Built for the Claude Life Sciences hackathon with Gladstone Institutes. A foundation-model embedding separates Alzheimer's from control — but it separates scanners and sites just as well. NeuroAD is the referee that tells you which one the model is actually reading. I ran frozen inference on Neuro-JEPA (a third-party NYU model extending V-JEPA 2 to 3D MRI) and built the extraction, confound-ablation, probing, and evaluation layers on top.
