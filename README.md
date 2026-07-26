@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1220,45:2563EB,100:10B981&height=220&section=header&text=Steven%20Yang&fontSize=56&fontColor=FFFFFF&fontAlignY=38&desc=ML%20%7C%20data%20science%20%7C%20cloud%20infrastructure%20%7C%200%20to%201%20product%20building&descSize=18&descColor=EAF2FF&descAlignY=60&animation=fadeIn" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1220,45:2563EB,100:10B981&height=150&section=header&text=Steven%20Yang&fontSize=40&fontColor=FFFFFF&fontAlignY=36&desc=ML%20%7C%20data%20science%20%7C%20cloud%20infrastructure%20%7C%20computer%20vision%20%7C%20representation%20learning&descSize=15&descColor=EAF2FF&descAlignY=62&animation=fadeIn" width="100%" />
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-stevenyang99-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/stevenyang99)
 [![Email](https://img.shields.io/badge/Email-stevenybusiness%40gmail.com-181717?style=for-the-badge&logo=gmail&logoColor=white)](mailto:stevenybusiness@gmail.com)
@@ -14,17 +14,17 @@
 
 <table><tbody>
 <tr><td><b>Languages</b></td><td>Python, Kotlin, JavaScript, TypeScript, SQL, HTML/CSS</td></tr>
-<tr><td><b>ML/Data</b></td><td>CatBoost, scikit-learn, pandas, NumPy, calibration, conformal intervals, Bayesian scoring, Markov chains, survival/censoring, causal caution</td></tr>
-<tr><td><b>Representation learning</b></td><td>JEPA-family predictive embeddings, frozen-encoder inference, linear/MLP probing, confound and batch-effect ablation, ComBat harmonization, 3D volumetric MRI, MONAI, MNI152 registration</td></tr>
+<tr><td><b>ML/Data</b></td><td>PyTorch, TensorFlow, CatBoost, scikit-learn, pandas, NumPy, calibration, conformal intervals, Bayesian scoring, Markov chains, survival/censoring, causal caution</td></tr>
+<tr><td><b>Representation learning</b></td><td>JEPA-family predictive embeddings, frozen-encoder inference, linear/MLP probing, ComBat harmonization, 3D volumetric MRI, MONAI</td></tr>
 <tr><td><b>AI Systems</b></td><td>LLM tool loops, MCP servers, RAG/retrieval, golden-dataset evals, deterministic gates, generated-code validation</td></tr>
 <tr><td><b>Cloud/Infra</b></td><td>Google Cloud Run, BigQuery, Gemini, Vertex AI, Databricks Asset Bundles, Delta Lake, MLflow, Docker, FastAPI, React</td></tr>
 </tbody></table>
 
 <br/>
 
-## Technical Throughline
+## Research Background: Cognitive Neuroscience & Data Science
 
-Before enterprise AI product work, I did cognitive neuroscience research at UC Irvine's Center for the Neurobiology of Learning and Memory / Stark Lab, using Python for fMRI image processing and analysis. The work covered pattern separation — how the hippocampus keeps similar experiences from collapsing into the same memory — and spatial navigation experiments and simulations. That background still shapes how I build: define the measurement problem, separate signal from confounders, and quantify uncertainty.
+Before enterprise AI product work, I did cognitive neuroscience research at UC Irvine's Center for the Neurobiology of Learning and Memory / Stark Lab, using Python for fMRI image processing and analysis. The work covered pattern separation — how the hippocampus keeps similar experiences from collapsing into the same memory — and spatial navigation experiments and simulations.
 
 <br/>
 
