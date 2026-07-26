@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1220,45:2563EB,100:10B981&height=150&section=header&text=Steven%20Yang&fontSize=40&fontColor=FFFFFF&fontAlignY=36&desc=ML%20%7C%20data%20science%20%7C%20cloud%20infrastructure%20%7C%20computer%20vision%20%7C%20representation%20learning&descSize=15&descColor=EAF2FF&descAlignY=62&animation=fadeIn" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1220,45:1E40AF,100:047857&height=160&section=header&text=Steven%20Yang&fontSize=42&fontColor=FFFFFF&fontAlignY=34&desc=ML%20%7C%20data%20science%20%7C%20cloud%20infrastructure%20%7C%20computer%20vision%20%7C%20representation%20learning&descSize=17&descColor=FFFFFF&descAlignY=54&animation=fadeIn" width="100%" />
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-stevenyang99-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/stevenyang99)
 [![Email](https://img.shields.io/badge/Email-stevenybusiness%40gmail.com-181717?style=for-the-badge&logo=gmail&logoColor=white)](mailto:stevenybusiness@gmail.com)
