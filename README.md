@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1220,45:1E40AF,100:047857&height=160&section=header&text=Steven%20Yang&fontSize=42&fontColor=FFFFFF&fontAlignY=34&desc=Physical%20AI%20%26%20world%20models%20%7C%20computer%20vision%20%7C%20representation%20learning%20%7C%20robotics%20%7C%20ML%20systems&descSize=15&descColor=FFFFFF&descAlignY=54&animation=fadeIn" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1220,45:1E40AF,100:047857&height=160&section=header&text=Steven%20Yang&fontSize=42&fontColor=FFFFFF&fontAlignY=34&desc=Physical%20AI%20and%20world%20models%20%7C%20computer%20vision%20%7C%20representation%20learning%20%7C%20robotics%20%7C%20ML%20systems&descSize=15&descColor=FFFFFF&descAlignY=54&animation=fadeIn" width="100%" />
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-stevenyang99-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/stevenyang99)
 [![Email](https://img.shields.io/badge/Email-stevenybusiness%40gmail.com-181717?style=for-the-badge&logo=gmail&logoColor=white)](mailto:stevenybusiness@gmail.com)
@@ -26,9 +26,9 @@
 
 ## Research Background: Cognitive Neuroscience & Data Science
 
-Before enterprise AI product work, I did cognitive neuroscience research at UC Irvine's Center for the Neurobiology of Learning and Memory / Stark Lab, using Python for fMRI image processing and analysis. The work covered pattern separation — how the hippocampus keeps similar experiences from collapsing into the same memory — and spatial navigation experiments and simulations.
+Before enterprise AI product work, I did cognitive neuroscience research at UC Irvine's Center for the Neurobiology of Learning and Memory / Stark Lab, using Python for fMRI image processing and analysis in controlled studies of spatial navigation, hippocampal pattern separation — how the hippocampus keeps similar experiences from collapsing into the same memory — and human memory. I proposed and secured funding for a study outside the lab's traditional hippocampus focus; the approach was later adopted by postdoctoral researchers and presented to 2,000+ symposium attendees.
 
-Currently deepening the computer-vision fundamentals behind that work through UC San Diego Extended Studies coursework: Deep Learning for Computer Vision, Linear Algebra for Machine Learning, and a Deep Neural Networks practicum.
+Currently extending that grounding at UC San Diego with coursework in Deep Learning for Computer Vision, Linear Algebra for Machine Learning, and a Deep Neural Networks practicum — building the same representation-learning toolkit behind the physical-AI work above.
 
 <br/>
 
