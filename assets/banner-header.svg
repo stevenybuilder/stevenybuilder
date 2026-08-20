@@ -1,0 +1,13 @@
+<svg width="1200" height="180" viewBox="0 0 1200 180" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bannerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0B1220"/>
+      <stop offset="45%" stop-color="#1E40AF"/>
+      <stop offset="100%" stop-color="#047857"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="180" fill="url(#bannerGrad)"/>
+  <path d="M0,150 C200,110 400,175 620,140 C840,105 1000,150 1200,120 L1200,180 L0,180 Z" fill="#000000" opacity="0.18"/>
+  <text x="48" y="82" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="42" font-weight="700" fill="#FFFFFF">Steven Yang</text>
+  <text x="48" y="116" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" font-weight="500" fill="#FFFFFF">Physical AI and world models | computer vision | representation learning | robotics | ML systems</text>
+</svg>

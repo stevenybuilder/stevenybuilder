@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1220,45:1E40AF,100:047857&height=160&section=header&text=Steven%20Yang&fontSize=42&fontColor=FFFFFF&fontAlignY=34&desc=Physical%20AI%20and%20world%20models%20%7C%20computer%20vision%20%7C%20representation%20learning%20%7C%20robotics%20%7C%20ML%20systems&descSize=15&descColor=FFFFFF&descAlignY=54&animation=fadeIn" width="100%" />
+<img src="assets/banner-header.svg" width="100%" />
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-stevenyang99-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/stevenyang99)
 [![Email](https://img.shields.io/badge/Email-stevenybusiness%40gmail.com-181717?style=for-the-badge&logo=gmail&logoColor=white)](mailto:stevenybusiness@gmail.com)
@@ -10,7 +10,7 @@
 
 <br/>
 
-> I build ML systems, and I'm pointed at physical AI and world models — self-supervised representation learning (JEPA-family predictive embeddings), computer vision, and robotics that closes the loop with real hardware (ESP32 firmware, live sensors, a physical actuator). Before that: probability-of-default models for lending, agent orchestration, and data products on Databricks and GCP.
+**I build ML systems, and I'm pointed at physical AI and world models** — self-supervised representation learning (JEPA-family predictive embeddings), computer vision, and robotics that closes the loop with real hardware (ESP32 firmware, live sensors, a physical actuator). Before that: probability-of-default models for lending, agent orchestration, and data products on Databricks and GCP.
 
 <table><tbody>
 <tr><td><b>Languages</b></td><td>Python, C/C++ (embedded/ESP32 firmware), Kotlin, JavaScript, TypeScript, SQL, HTML/CSS</td></tr>
