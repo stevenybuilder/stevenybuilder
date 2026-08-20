@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1220,45:1E40AF,100:047857&height=160&section=header&text=Steven%20Yang&fontSize=42&fontColor=FFFFFF&fontAlignY=34&desc=ML%20%7C%20data%20science%20%7C%20cloud%20infrastructure%20%7C%20computer%20vision%20%7C%20representation%20learning&descSize=17&descColor=FFFFFF&descAlignY=54&animation=fadeIn" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1220,45:1E40AF,100:047857&height=160&section=header&text=Steven%20Yang&fontSize=42&fontColor=FFFFFF&fontAlignY=34&desc=Physical%20AI%20%26%20world%20models%20%7C%20computer%20vision%20%7C%20representation%20learning%20%7C%20robotics%20%7C%20ML%20systems&descSize=15&descColor=FFFFFF&descAlignY=54&animation=fadeIn" width="100%" />
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-stevenyang99-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/stevenyang99)
 [![Email](https://img.shields.io/badge/Email-stevenybusiness%40gmail.com-181717?style=for-the-badge&logo=gmail&logoColor=white)](mailto:stevenybusiness@gmail.com)
@@ -10,12 +10,14 @@
 
 <br/>
 
-> I build ML systems — most recently frozen JEPA-family encoders on 3D brain MRI, before that probability-of-default models for lending, agent orchestration, and data products on Databricks and GCP.
+> I build ML systems, and I'm pointed at physical AI and world models — self-supervised representation learning (JEPA-family predictive embeddings), computer vision, and robotics that closes the loop with real hardware (ESP32 firmware, live sensors, a physical actuator). Before that: probability-of-default models for lending, agent orchestration, and data products on Databricks and GCP.
 
 <table><tbody>
-<tr><td><b>Languages</b></td><td>Python, Kotlin, JavaScript, TypeScript, SQL, HTML/CSS</td></tr>
+<tr><td><b>Languages</b></td><td>Python, C/C++ (embedded/ESP32 firmware), Kotlin, JavaScript, TypeScript, SQL, HTML/CSS</td></tr>
 <tr><td><b>ML/Data</b></td><td>PyTorch, TensorFlow, CatBoost, scikit-learn, pandas, NumPy, calibration, conformal intervals, Bayesian scoring, Markov chains, survival/censoring, causal caution</td></tr>
-<tr><td><b>Representation learning</b></td><td>JEPA-family predictive embeddings, frozen-encoder inference, linear/MLP probing, ComBat harmonization, 3D volumetric MRI, MONAI</td></tr>
+<tr><td><b>Physical AI / Representation learning</b></td><td>JEPA-family predictive embeddings (self-supervised, world-model-style architectures), frozen-encoder inference, Vision Transformers, linear/MLP probing, 3D volumetric perception, confound/bias ablation</td></tr>
+<tr><td><b>Robotics / Embedded</b></td><td>ESP32/ESP-IDF firmware (C/C++) for real-time arm control and sensor tracking, computer-vision perception closing the loop with a physical actuator</td></tr>
+<tr><td><b>GPU/CPU Engineering</b></td><td>PyTorch inference and training on GPU (Colab) driven from a CPU-only dev machine, per-unit checkpointed resumability, pinned CUDA/PyTorch dependency stacks</td></tr>
 <tr><td><b>AI Systems</b></td><td>LLM tool loops, MCP servers, RAG/retrieval, golden-dataset evals, deterministic gates, generated-code validation</td></tr>
 <tr><td><b>Cloud/Infra</b></td><td>Google Cloud Run, BigQuery, Gemini, Vertex AI, Databricks Asset Bundles, Delta Lake, MLflow, Docker, FastAPI, React</td></tr>
 </tbody></table>
@@ -26,6 +28,8 @@
 
 Before enterprise AI product work, I did cognitive neuroscience research at UC Irvine's Center for the Neurobiology of Learning and Memory / Stark Lab, using Python for fMRI image processing and analysis. The work covered pattern separation — how the hippocampus keeps similar experiences from collapsing into the same memory — and spatial navigation experiments and simulations.
 
+Currently deepening the computer-vision fundamentals behind that work through UC San Diego Extended Studies coursework: Deep Learning for Computer Vision, Linear Algebra for Machine Learning, and a Deep Neural Networks practicum.
+
 <br/>
 
 ## Things I've Built
@@ -34,7 +38,7 @@ Before enterprise AI product work, I did cognitive neuroscience research at UC I
 
 ### NeuroAD Discovery Engine
 
-**Latent-space referee for a frozen 3D brain-MRI foundation model.**
+**Evaluation rigor for a frozen JEPA-style world-model encoder — proving what it actually learned before trusting it.**
 
 [![Repo](https://img.shields.io/badge/NeuroAD-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/stevenybuilder/NeuroAD)
 [![Hackathon](https://img.shields.io/badge/Claude%20Life%20Sciences-Gladstone%20Institutes-D97757?style=for-the-badge)](https://github.com/stevenybuilder/NeuroAD)
@@ -47,15 +51,38 @@ Before enterprise AI product work, I did cognitive neuroscience research at UC I
 
 </div>
 
-Built for the Claude Life Sciences hackathon with Gladstone Institutes. A foundation-model embedding separates Alzheimer's from control — but it separates scanners and sites just as well. NeuroAD is the referee that tells you which one the model is actually reading. I ran frozen inference on Neuro-JEPA (a third-party NYU model extending V-JEPA 2 to 3D MRI) and built the extraction, confound-ablation, probing, and evaluation layers on top.
+Built for the Claude Life Sciences hackathon with Gladstone Institutes. JEPA (Joint-Embedding Predictive Architecture) is the self-supervised family behind current world-model research — it learns by predicting representations, not pixels. NeuroAD stress-tests that promise: a foundation-model embedding separates disease from control, but it separates scanners and sites just as well. I ran frozen inference on Neuro-JEPA (a third-party NYU model extending V-JEPA 2 to 3D volumetric imaging) and built the extraction, confound-ablation, probing, and evaluation layers that tell you which signal the model is actually reading before you trust it downstream.
 
 <table><tbody>
-<tr><td><b>Representation learning</b></td><td>Frozen ViT-MoE forward pass over MONAI-preprocessed T1w volumes, token mean-pool to 768-d, across 1,787 subjects in four cohorts (ADNI, OASIS-1/2, OpenBHB)</td></tr>
+<tr><td><b>Representation learning</b></td><td>Frozen ViT-MoE forward pass over preprocessed 3D volumetric scans, token mean-pool to 768-d, across 1,787 subjects spanning four public research cohorts</td></tr>
 <tr><td><b>Probing</b></td><td>One reused logistic head pointed at either the outcome or the confound, so a result and its own falsifier share an estimator; site-disjoint StratifiedGroupKFold, bootstrap CIs, label-permutation nulls, PCA fit inside each fold</td></tr>
 <tr><td><b>Headline finding</b></td><td>On 96 healthy brains with no disease signal, the frozen embedding predicts scanner field strength at AUC 0.931 at PCA-10 — acquisition physics is linearly decodable from a self-supervised representation and survives dimensionality reduction</td></tr>
-<tr><td><b>Harmonization</b></td><td>Parametric ComBat with empirical-Bayes shrinkage, deliberately label-blind: age and sex protected, diagnosis excluded so the correction never sees the outcome. Cohort separability drops 0.9996 → 0.5634 while AD-vs-CN survives at 0.8313 cross-cohort</td></tr>
+<tr><td><b>Harmonization</b></td><td>Empirical-Bayes site-effect correction, deliberately label-blind: protected covariates in, outcome excluded so the correction never sees the label it will later be evaluated against. Cohort separability drops 0.9996 → 0.5634 while the disease-vs-control signal survives at 0.8313 cross-cohort</td></tr>
+<tr><td><b>Why it matters for world models</b></td><td>Any frozen predictive encoder — JEPA-family or otherwise — can look like it learned the physics of a domain while it's actually keyed on an acquisition artifact. This is the confound-ablation methodology for telling those apart before you build on top of the representation</td></tr>
 <tr><td><b>Agentic layer</b></td><td>Claude Sonnet router with enum-constrained routing plus an Opus agent that reads the evidence and drafts the next experiment; Claude never produces a number — every figure comes from the probe</td></tr>
-<tr><td><b>Stack</b></td><td>Python, PyTorch, MONAI, deepbet, scikit-learn, NumPy, Anthropic API, FastAPI, Docker, Google Cloud Run, Colab GPU runtimes</td></tr>
+<tr><td><b>Stack</b></td><td>Python, PyTorch, deepbet, scikit-learn, NumPy, Anthropic API, FastAPI, Docker, Google Cloud Run, Colab GPU runtimes (CPU-only dev machine)</td></tr>
+</tbody></table>
+
+<div align="center">
+
+---
+
+### TrueDose AI
+
+**Robotic medication-safety cabinet — physical AI end to end: embedded control, computer vision, and a real actuator.**
+
+![Hackathon](https://img.shields.io/badge/AI%20Valley%20Robotics%20Hackathon-Best%20Use%20of%20Convex-7C3AED?style=for-the-badge)
+
+</div>
+
+A robotic cabinet that identifies medication, detects dispensing errors, and physically delivers a dose — perception and control closing the loop on real hardware, not a simulation. I owned the embedded firmware and the vision stack end to end.
+
+<table><tbody>
+<tr><td><b>Embedded control</b></td><td>ESP32/ESP-IDF firmware in C/C++ driving robotic-arm motion, camera capture, and sensor tracking for physical dispensing</td></tr>
+<tr><td><b>Perception</b></td><td>Python computer-vision modules for medication identification, dispensing-error detection, and prescription reconciliation against a scanned label</td></tr>
+<tr><td><b>Systems integration</b></td><td>OMI-captured prescriptions synced through Convex; real-time family alerts and a monitoring dashboard on the same event stream</td></tr>
+<tr><td><b>Stack</b></td><td>C/C++ (ESP32/ESP-IDF), Python, computer vision, Convex, real-time dashboards</td></tr>
+<tr><td><b>Result</b></td><td>Won Best Use of Convex, AI Valley Robotics Hackathon</td></tr>
 </tbody></table>
 
 <div align="center">
@@ -216,7 +243,6 @@ Together is a real-time conversation system for people separated by distance and
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
 ![scikit--learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![MONAI](https://img.shields.io/badge/MONAI-0F62FE?style=flat-square&logo=python&logoColor=white)
 
 **`Cloud / Backend / Infra`**
 
@@ -243,7 +269,7 @@ Together is a real-time conversation system for people separated by distance and
 <table><tbody>
 <tr><td><b>Intuit AI/ML Hackathon</b></td><td>2nd Place, June 2026 - calibrated underwriting PDs and profit-aware decision logic</td></tr>
 <tr><td><b>Google DeepMind Hackathon</b></td><td>Best Use of DigitalOcean, March 2026 - multimodal meeting memory and agent workflow</td></tr>
-<tr><td><b>Experian Global AI Hackathon</b></td><td>1st Place, November 2025 - AI-driven credit optimization MVP</td></tr>
+<tr><td><b>Experian Global AI Hackathon</b></td><td>1st of 91 teams, November 2025</td></tr>
 <tr><td><b>AI Valley Robotics Hackathon</b></td><td>Best Use of Convex, November 2025</td></tr>
 </tbody></table>
 
@@ -251,6 +277,7 @@ Together is a real-time conversation system for people separated by distance and
 
 ## Operating Range
 
+- Pointed at physical AI and world models: self-supervised/predictive representation learning, computer vision, and robotics perception that closes the loop with real hardware
 - Build production-shaped AI systems across backend, frontend, data, ML, and cloud infrastructure
 - Design decision systems with calibration, uncertainty, evals, explainability, and data-quality guardrails
 - Ship agentic workflows with MCP servers, tool use, RAG/retrieval, deterministic gates, and human review
