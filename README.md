@@ -1,7 +1,5 @@
 <a href="https://github.com/stevenybuilder"><img src="https://ghchart.rshah.org/2f855a/stevenybuilder" alt="Steven Yang's GitHub contribution graph, last twelve months" width="100%"/></a>
 
-<img src="https://stevenybuilder.github.io/assets/media/about-steven-yang-8937.webp" alt="Steven Yang beside a mountain lake" align="right" width="210"/>
-
 # Steven Yang
 
 Applied interpretability for world models and physical AI.
@@ -9,6 +7,8 @@ Applied interpretability for world models and physical AI.
 [Writing](https://stevenybuilder.github.io) · [LinkedIn](https://www.linkedin.com/in/stevenyang99) · [X](https://x.com/stevenytechs) · [Email](mailto:stevenybusiness@gmail.com)
 
 ## Now
+
+<img src="https://stevenybuilder.github.io/assets/media/about-steven-yang-8937.webp" alt="Steven Yang beside a mountain lake" align="right" width="200"/>
 
 - Fine-grained steering and applied interpretability for world models, to improve robotics task outcomes and scale physical AI safely.
 - Learning and memory mechanisms for recurrent state-space models in JEPA, during pretraining and at inference time, with compute efficiency as a constraint.
