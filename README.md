@@ -25,7 +25,7 @@ Applied interpretability for world models and physical AI.
 | **Deep learning** | PyTorch, JAX, TensorFlow, Vision Transformers, JEPA-family predictive embeddings, frozen-encoder inference, linear and MLP probing, activation patching and steering |
 | **ML and statistics** | scikit-learn, CatBoost, pandas, NumPy, SciPy, calibration, conformal intervals, bootstrap and permutation nulls, survival and censoring, confound ablation |
 | **Robotics and embedded** | ESP32 / ESP-IDF firmware for real-time arm control and sensor tracking, computer-vision perception closing the loop with a physical actuator |
-| **GPU and systems** | Multi-GPU runs on rented cloud instances from a CPU-only machine, checkpointed resumability, pinned CUDA and PyTorch stacks, Colab |
+| **GPU and systems** | Matrix-multiply performance from first principles (arithmetic intensity, roofline, memory bandwidth, mixed precision), following the Hugging Face Ultra-Scale Playbook and DeepMind's *How to Scale Your Model* (JAX); managing fleets of rented GPU instances from a CPU-only machine with locked scheduling, checkpointed resumability and pinned CUDA and PyTorch stacks |
 | **AI systems** | LLM tool loops, MCP servers, retrieval, golden-dataset evals, deterministic gates, generated-code validation |
 | **Cloud and data** | Google Cloud Run, BigQuery, Vertex AI, Gemini, Databricks Asset Bundles, Delta Lake, MLflow, Docker, FastAPI, React |
 
