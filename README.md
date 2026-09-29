@@ -1,286 +1,57 @@
-<div align="center">
+<a href="https://github.com/stevenybuilder"><img src="https://ghchart.rshah.org/2f855a/stevenybuilder" alt="Steven Yang's GitHub contribution graph, last twelve months" width="100%"/></a>
 
-<img src="assets/banner-header.svg" width="100%" />
+<img src="https://stevenybuilder.github.io/assets/media/about-steven-yang-8937.webp" alt="Steven Yang beside a mountain lake" align="right" width="210"/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-stevenyang99-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/stevenyang99)
-[![Email](https://img.shields.io/badge/Email-stevenybusiness%40gmail.com-181717?style=for-the-badge&logo=gmail&logoColor=white)](mailto:stevenybusiness@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-stevenybuilder-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/stevenybuilder)
+# Steven Yang
 
-</div>
+Applied interpretability for world models and physical AI.
 
-<br/>
+[Writing](https://stevenybuilder.github.io) · [LinkedIn](https://www.linkedin.com/in/stevenyang99) · [X](https://x.com/stevenytechs) · [Email](mailto:stevenybusiness@gmail.com)
 
-**I build ML systems, and I'm pointed at physical AI and world models** — self-supervised representation learning (JEPA-family predictive embeddings), computer vision, and robotics that closes the loop with real hardware (ESP32 firmware, live sensors, a physical actuator). Before that: probability-of-default models for lending, agent orchestration, and data products on Databricks and GCP.
+## Now
 
-<table><tbody>
-<tr><td><b>Languages</b></td><td>Python, C/C++ (embedded/ESP32 firmware), Kotlin, JavaScript, TypeScript, SQL, HTML/CSS</td></tr>
-<tr><td><b>ML/Data</b></td><td>PyTorch, TensorFlow, CatBoost, scikit-learn, pandas, NumPy, calibration, conformal intervals, Bayesian scoring, Markov chains, survival/censoring, causal caution</td></tr>
-<tr><td><b>Physical AI / Representation learning</b></td><td>JEPA-family predictive embeddings (self-supervised, world-model-style architectures), frozen-encoder inference, Vision Transformers, linear/MLP probing, 3D volumetric perception, confound/bias ablation</td></tr>
-<tr><td><b>Robotics / Embedded</b></td><td>ESP32/ESP-IDF firmware (C/C++) for real-time arm control and sensor tracking, computer-vision perception closing the loop with a physical actuator</td></tr>
-<tr><td><b>GPU/CPU Engineering</b></td><td>PyTorch inference and training on GPU (Colab) driven from a CPU-only dev machine, per-unit checkpointed resumability, pinned CUDA/PyTorch dependency stacks</td></tr>
-<tr><td><b>AI Systems</b></td><td>LLM tool loops, MCP servers, RAG/retrieval, golden-dataset evals, deterministic gates, generated-code validation</td></tr>
-<tr><td><b>Cloud/Infra</b></td><td>Google Cloud Run, BigQuery, Gemini, Vertex AI, Databricks Asset Bundles, Delta Lake, MLflow, Docker, FastAPI, React</td></tr>
-</tbody></table>
+- Fine-grained steering and applied interpretability for world models, to improve robotics task outcomes and scale physical AI safely.
+- Learning and memory mechanisms for recurrent state-space models in JEPA, during pretraining and at inference time, with compute efficiency as a constraint.
+- Latest write-up: [Reading and steering motion in V-JEPA 2](https://github.com/stevenybuilder/jepa_physics). Layer-wise probing, nullspace erasure and manifold steering of direction, speed and acceleration in the frozen encoder, judged by the model's own predictor.
+- Before that: [instruction following in π0.5](https://stevenybuilder.github.io/pick-it-up/), a causal pathway for instruction control in a vision-language-action model.
 
-<br/>
+<br clear="right"/>
 
-## Research Background: Cognitive Neuroscience & Data Science
+## Skills
 
-Before enterprise AI product work, I did cognitive neuroscience research at UC Irvine's Center for the Neurobiology of Learning and Memory / Stark Lab, using Python for fMRI image processing and analysis in controlled studies of spatial navigation, hippocampal pattern separation — how the hippocampus keeps similar experiences from collapsing into the same memory — and human memory. I proposed and secured funding for a study outside the lab's traditional hippocampus focus; the approach was later adopted by postdoctoral researchers and presented to 2,000+ symposium attendees.
+| | |
+|---|---|
+| **Languages** | Python, C/C++ (embedded, ESP32), Kotlin, JavaScript, TypeScript, SQL |
+| **Deep learning** | PyTorch, JAX, TensorFlow, Vision Transformers, JEPA-family predictive embeddings, frozen-encoder inference, linear and MLP probing, activation patching and steering |
+| **ML and statistics** | scikit-learn, CatBoost, pandas, NumPy, SciPy, calibration, conformal intervals, bootstrap and permutation nulls, survival and censoring, confound ablation |
+| **Robotics and embedded** | ESP32 / ESP-IDF firmware for real-time arm control and sensor tracking, computer-vision perception closing the loop with a physical actuator |
+| **GPU and systems** | Multi-GPU runs on rented cloud instances from a CPU-only machine, checkpointed resumability, pinned CUDA and PyTorch stacks, Colab |
+| **AI systems** | LLM tool loops, MCP servers, retrieval, golden-dataset evals, deterministic gates, generated-code validation |
+| **Cloud and data** | Google Cloud Run, BigQuery, Vertex AI, Gemini, Databricks Asset Bundles, Delta Lake, MLflow, Docker, FastAPI, React |
 
-Currently extending that grounding at UC San Diego with coursework in Deep Learning for Computer Vision, Linear Algebra for Machine Learning, and a Deep Neural Networks practicum — building the same representation-learning toolkit behind the physical-AI work above.
+## Projects
 
-<br/>
+| | | |
+|---|---|---|
+| [**jepa_physics**](https://github.com/stevenybuilder/jepa_physics) | Reads and steers physical variables inside V-JEPA 2 and asks whether the predictor uses them. Spline versus straight edits at held-out values, token-level binding, position and contact through the forecast. | PyTorch, transformers, scikit-learn |
+| [**NeuroAD**](https://github.com/stevenybuilder/NeuroAD) | Confound ablation for a frozen JEPA-style 3D imaging encoder. Shows the embedding decodes scanner field strength as readily as disease, then harmonizes it away label-blind. Built at the Claude Life Sciences hackathon with Gladstone Institutes. [Demo video](https://www.youtube.com/watch?v=Q1F49sy4BC0). | PyTorch, scikit-learn, FastAPI, Cloud Run |
+| **TrueDose AI** | Robotic medication-safety cabinet: ESP32 firmware, vision-based medication identification, a real actuator delivering the dose. Best Use of Convex, AI Valley Robotics Hackathon. | C/C++, Python, Convex |
+| [**SMB underwriting**](https://github.com/ron2k1/intuit-techweek-smb-underwriting) | Calibrated probability-of-default modeling with 90% intervals and profit-aware approval logic under selection bias and censoring. 2nd place, Intuit TechWeek NYC 2026. | Python, scikit-learn, statsmodels |
+| [**CareGap**](https://github.com/stevenybuilder/caregap-medical-desert-map) | Ranks likely medical deserts with Bayesian trust posteriors, Wilson intervals and conformal sets over a lakehouse pipeline. [Live](https://caregap-app-31043195041.us-central1.run.app/). | Databricks, CatBoost, MLflow, Streamlit |
+| [**Guardia**](https://github.com/stevenybuilder/guardia) | Deployment-risk copilot inside IntelliJ: deterministic Kotlin baseline plus an LLM override grounded in incident citations. | Kotlin, IntelliJ SDK, Datadog |
+| [**Sentinel**](https://github.com/stevenybuilder/sentinel-agent-security) | Runtime security layer for autonomous agents: investigators verify claims, a policy gate blocks risky actions, confirmed attacks become AST-validated scoring rules. [Live](https://sentinelapp-delta.vercel.app). | Python, asyncio, FastAPI, React |
+| [**AI Meeting Autopilot**](https://github.com/stevenybuilder/ai-meeting-autopilot) | Live transcription, commitment extraction and action dispatch across Slack, Calendar, Gmail and BigQuery over WebSockets. | Python, Gemini, Cloud STT, Terraform |
+| [**Together**](https://github.com/stevenybuilder/together-presence-agent) | Bidirectional live speech translation with scene narration, then a generated storybook and memory video from the call. | Gemini Live, Deepgram, Veo |
 
-## Things I've Built
+## Awards
 
-<div align="center">
+| | |
+|---|---|
+| Intuit AI/ML Hackathon, June 2026 | 2nd place |
+| Google DeepMind Hackathon, March 2026 | Best Use of DigitalOcean |
+| Experian Global AI Hackathon, November 2025 | 1st of 91 teams |
+| AI Valley Robotics Hackathon, November 2025 | Best Use of Convex |
 
-### NeuroAD Discovery Engine
+## Background
 
-**Evaluation rigor for a frozen JEPA-style world-model encoder — proving what it actually learned before trusting it.**
-
-[![Repo](https://img.shields.io/badge/NeuroAD-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/stevenybuilder/NeuroAD)
-[![Hackathon](https://img.shields.io/badge/Claude%20Life%20Sciences-Gladstone%20Institutes-D97757?style=for-the-badge)](https://github.com/stevenybuilder/NeuroAD)
-
-<a href="https://www.youtube.com/watch?v=Q1F49sy4BC0">
-  <img src="https://i.ytimg.com/vi/Q1F49sy4BC0/maxresdefault.jpg" alt="Watch the NeuroAD demo" width="640" />
-</a>
-
-▶ **[Watch the demo video](https://www.youtube.com/watch?v=Q1F49sy4BC0)**
-
-</div>
-
-Built for the Claude Life Sciences hackathon with Gladstone Institutes. JEPA (Joint-Embedding Predictive Architecture) is the self-supervised family behind current world-model research — it learns by predicting representations, not pixels. NeuroAD stress-tests that promise: a foundation-model embedding separates disease from control, but it separates scanners and sites just as well. I ran frozen inference on Neuro-JEPA (a third-party NYU model extending V-JEPA 2 to 3D volumetric imaging) and built the extraction, confound-ablation, probing, and evaluation layers that tell you which signal the model is actually reading before you trust it downstream.
-
-<table><tbody>
-<tr><td><b>Representation learning</b></td><td>Frozen ViT-MoE forward pass over preprocessed 3D volumetric scans, token mean-pool to 768-d, across 1,787 subjects spanning four public research cohorts</td></tr>
-<tr><td><b>Probing</b></td><td>One reused logistic head pointed at either the outcome or the confound, so a result and its own falsifier share an estimator; site-disjoint StratifiedGroupKFold, bootstrap CIs, label-permutation nulls, PCA fit inside each fold</td></tr>
-<tr><td><b>Headline finding</b></td><td>On 96 healthy brains with no disease signal, the frozen embedding predicts scanner field strength at AUC 0.931 at PCA-10 — acquisition physics is linearly decodable from a self-supervised representation and survives dimensionality reduction</td></tr>
-<tr><td><b>Harmonization</b></td><td>Empirical-Bayes site-effect correction, deliberately label-blind: protected covariates in, outcome excluded so the correction never sees the label it will later be evaluated against. Cohort separability drops 0.9996 → 0.5634 while the disease-vs-control signal survives at 0.8313 cross-cohort</td></tr>
-<tr><td><b>Why it matters for world models</b></td><td>Any frozen predictive encoder — JEPA-family or otherwise — can look like it learned the physics of a domain while it's actually keyed on an acquisition artifact. This is the confound-ablation methodology for telling those apart before you build on top of the representation</td></tr>
-<tr><td><b>Agentic layer</b></td><td>Claude Sonnet router with enum-constrained routing plus an Opus agent that reads the evidence and drafts the next experiment; Claude never produces a number — every figure comes from the probe</td></tr>
-<tr><td><b>Stack</b></td><td>Python, PyTorch, deepbet, scikit-learn, NumPy, Anthropic API, FastAPI, Docker, Google Cloud Run, Colab GPU runtimes (CPU-only dev machine)</td></tr>
-</tbody></table>
-
-<div align="center">
-
----
-
-### TrueDose AI
-
-**Robotic medication-safety cabinet — physical AI end to end: embedded control, computer vision, and a real actuator.**
-
-![Hackathon](https://img.shields.io/badge/AI%20Valley%20Robotics%20Hackathon-Best%20Use%20of%20Convex-7C3AED?style=for-the-badge)
-
-</div>
-
-A robotic cabinet that identifies medication, detects dispensing errors, and physically delivers a dose — perception and control closing the loop on real hardware, not a simulation. I owned the embedded firmware and the vision stack end to end.
-
-<table><tbody>
-<tr><td><b>Embedded control</b></td><td>ESP32/ESP-IDF firmware in C/C++ driving robotic-arm motion, camera capture, and sensor tracking for physical dispensing</td></tr>
-<tr><td><b>Perception</b></td><td>Python computer-vision modules for medication identification, dispensing-error detection, and prescription reconciliation against a scanned label</td></tr>
-<tr><td><b>Systems integration</b></td><td>OMI-captured prescriptions synced through Convex; real-time family alerts and a monitoring dashboard on the same event stream</td></tr>
-<tr><td><b>Stack</b></td><td>C/C++ (ESP32/ESP-IDF), Python, computer vision, Convex, real-time dashboards</td></tr>
-<tr><td><b>Result</b></td><td>Won Best Use of Convex, AI Valley Robotics Hackathon</td></tr>
-</tbody></table>
-
-<div align="center">
-
----
-
-### Intuit Data Science Competition: Model Performance
-
-**Explainable ML system for small-business lending decisions.**
-
-[![Team Repo](https://img.shields.io/badge/team%20repo-ron2k1%2Fintuit--techweek--smb--underwriting-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ron2k1/intuit-techweek-smb-underwriting)
-[![Hackathon](https://img.shields.io/badge/Intuit%20TechWeek-NYC%202026-236CFF?style=for-the-badge)](https://github.com/intuit/intuit-techweek-nyc-hackathon-2026)
-
-</div>
-
-Team build for the Intuit TechWeek NYC 2026 Explainable ML hackathon. I owned modeling and calibration work for underwriting decisions: estimating probability of default, producing 90% intervals, and iterating on profit-aware approval logic under selection bias, leakage risk, censoring, and missing-not-at-random bank-feed data.
-
-<table><tbody>
-<tr><td><b>Decision problem</b></td><td>Approve or decline SMB loan applicants to maximize realized portfolio profit under APR, origination-fee, LGD, and default-definition constraints</td></tr>
-<tr><td><b>ML depth</b></td><td>Calibrated PD modeling, uncertainty intervals, profit break-even thresholds, reject-inference awareness, leakage controls, MNAR missingness indicators</td></tr>
-<tr><td><b>Challenge scope</b></td><td>Loan decisions, default trajectory forecasting, causal counterfactual PDs, monotonicity checks, and explainable methodology defense</td></tr>
-<tr><td><b>Stack</b></td><td>Python, pandas, NumPy, scikit-learn, SciPy, statsmodels, HGB/value ensembles, calibration pipelines, CSV validators</td></tr>
-<tr><td><b>Validation</b></td><td>Submission schema/ID/range/monotonicity gate with PASS status before upload</td></tr>
-</tbody></table>
-
-<div align="center">
-
----
-
-### CareGap
-
-**Healthcare access intelligence for finding and explaining medical deserts.**
-
-[![Repo](https://img.shields.io/badge/caregap--medical--desert--map-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/stevenybuilder/caregap-medical-desert-map)
-[![Cloud Run](https://img.shields.io/badge/live-Cloud%20Run-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)](https://caregap-app-31043195041.us-central1.run.app/)
-[![Devpost](https://img.shields.io/badge/devpost-project-003E54?style=for-the-badge&logo=devpost&logoColor=white)](https://devpost.com/software/databricks-copilot-medical-desert-map)
-
-</div>
-
-CareGap ranks likely medical deserts, estimates confidence, surfaces provider evidence, and recommends concrete deployment actions for healthcare planners. It combines lakehouse-style data workflows with statistical uncertainty layers so users can inspect not just where gaps exist, but why the system believes they exist.
-
-<table><tbody>
-<tr><td><b>Data pipeline</b></td><td>Bronze/silver/gold flow for facility records, geography, provider claims, district health indicators, and review queues; bundled as Databricks serverless jobs</td></tr>
-<tr><td><b>Modeling</b></td><td>CatBoost capacity and doctor-count imputers, native categorical handling, log1p targets, 5-fold OOF validation, clipped predictions, MLflow logging</td></tr>
-<tr><td><b>Uncertainty</b></td><td>Bayesian validity posterior, empirical-Bayes trust smoothing, Wilson intervals, split-conformal facility trust sets</td></tr>
-<tr><td><b>Stack</b></td><td>Python, Databricks Apps, Databricks SQL connector, Delta Lake, Unity Catalog, MLflow, Streamlit, CatBoost, PyDeck/H3, Google Cloud Run, Docker</td></tr>
-</tbody></table>
-
-<div align="center">
-
----
-
-### Guardia
-
-**Deployment-risk copilot inside JetBrains IDEs.**
-
-[![Repo](https://img.shields.io/badge/guardia-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/stevenybuilder/guardia)
-
-</div>
-
-Guardia brings production-risk analysis into the developer workflow before code ships. It reads touched services, Git context, incident patterns, and observability signals, then explains likely deployment risks with cited evidence and targeted remediation paths inside IntelliJ.
-
-<table><tbody>
-<tr><td><b>IDE engineering</b></td><td>Native IntelliJ plugin with PSI, Git4Idea diff extraction, PasswordSafe credentials, tool windows, editor highlights, and undoable WriteCommandAction patches</td></tr>
-<tr><td><b>Risk engine</b></td><td>Sub-5ms deterministic Kotlin baseline plus bounded OpenAI/Codex Responses API override grounded in incident citations</td></tr>
-<tr><td><b>Retrieval</b></td><td>Datadog incident context, BM25/structural matching, reciprocal-rank fusion, and offending-code snippet scans</td></tr>
-<tr><td><b>Stack</b></td><td>Kotlin, IntelliJ Platform SDK, Gradle, JDK 21, OkHttp, Moshi, Python fixture generation, Datadog APIs, Supabase, OpenAI</td></tr>
-<tr><td><b>Verification</b></td><td>28 Kotlin test files plus remote-robot UI smoke-test source set</td></tr>
-</tbody></table>
-
-<div align="center">
-
----
-
-### Sentinel
-
-**Runtime security layer for autonomous AI agents.**
-
-[![Repo](https://img.shields.io/badge/sentinel--agent--security-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/stevenybuilder/sentinel-agent-security)
-[![Live Demo](https://img.shields.io/badge/demo-sentinelapp--delta.vercel.app-10B981?style=for-the-badge&logo=vercel&logoColor=white)](https://sentinelapp-delta.vercel.app)
-
-</div>
-
-Sentinel treats agent behavior as a security surface. Independent investigators verify payment-agent claims against ground truth, a deterministic safety gate blocks risky actions, and confirmed attacks generate new Python scoring rules that are AST-validated, regression-tested, and hot-deployed.
-
-<table><tbody>
-<tr><td><b>Core loop</b></td><td>Supervisor agent, payment agent, risk/compliance/forensics investigators, verdict board, deterministic policy gate</td></tr>
-<tr><td><b>Concurrency</b></td><td>Python 3.11 asyncio.TaskGroup dispatch for parallel sub-agent investigations with structured cancellation</td></tr>
-<tr><td><b>Learning system</b></td><td>Generated Python scoring functions validated by AST parse, attack/clean regression checks, forbidden-token scan, and RestrictedPython execution</td></tr>
-<tr><td><b>Stack</b></td><td>Python, FastAPI, Pydantic, Anthropic async client, React, Vite, JavaScript, XYFlow, Zustand, Aerospike, RestrictedPython, Auth0, Docker</td></tr>
-<tr><td><b>Verification</b></td><td>22 pytest files plus GitHub Actions backend deployment workflow to EC2</td></tr>
-</tbody></table>
-
-<div align="center">
-
----
-
-### AI Meeting Autopilot
-
-**Multimodal meeting agent with real-time audio, vision, memory, and action dispatch.**
-
-[![Repo](https://img.shields.io/badge/ai--meeting--autopilot-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/stevenybuilder/ai-meeting-autopilot)
-[![Cloud Run](https://img.shields.io/badge/live-Cloud%20Run-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)](https://meeting-agent-ynzg64zhoa-uc.a.run.app/)
-
-</div>
-
-This system transcribes live browser audio, extracts commitments, checks sentiment, and dispatches actions across Slack, Calendar, Gmail, documents, and BigQuery reports. Sessions run through WebSockets and async background execution so follow-up work can happen while the meeting continues.
-
-<table><tbody>
-<tr><td><b>Realtime pipeline</b></td><td>Browser PCM at 16kHz, WebSocket transport, Cloud STT streaming, transcript buffering, Gemini extraction, deterministic sentiment gate</td></tr>
-<tr><td><b>Reliability</b></td><td>Per-session dataclass registry, background task retention, proactive STT reconnect before streaming limits, async action fanout</td></tr>
-<tr><td><b>Actions/data</b></td><td>Slack updates, Calendar events, Gmail summaries, document revision, BigQuery NL-to-SQL reports, DigitalOcean meeting memory</td></tr>
-<tr><td><b>Stack</b></td><td>Python, FastAPI, JavaScript, HTML/Tailwind, WebSockets, Gemini, Google Cloud STT/Vision, BigQuery, Slack SDK, DigitalOcean inference/KB, Cloud Run, Terraform</td></tr>
-<tr><td><b>Verification</b></td><td>8 regression/smoke tests with GitHub Actions install, smoke, and test workflow</td></tr>
-</tbody></table>
-
-<div align="center">
-
----
-
-### Together
-
-**Live translation and memory generation for cross-language presence.**
-
-[![Repo](https://img.shields.io/badge/together--presence--agent-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/stevenybuilder/together-presence-agent)
-
-</div>
-
-Together is a real-time conversation system for people separated by distance and language. It translates speech bidirectionally, narrates the other person's environment on request, then turns call moments into a generated storybook and memory video.
-
-<table><tbody>
-<tr><td><b>Realtime mode</b></td><td>FastAPI/WebSocket rooms, per-participant streaming sessions, Gemini Live bidirectional speech translation, translated captions, session affinity on Cloud Run</td></tr>
-<tr><td><b>Vision/memory</b></td><td>Vision scene analysis with semaphores, markdown transcript logging, storybook generation through Gemini interleaved output, memory video pipeline through Veo</td></tr>
-<tr><td><b>Reliability</b></td><td>Deepgram STT sessions, ElevenLabs/Gradium TTS fallback path, billing monitor controls for demo safety</td></tr>
-<tr><td><b>Stack</b></td><td>Python, FastAPI, WebSockets, Gemini Live, Google Cloud Vision, Deepgram, Veo, ElevenLabs, HTML/JavaScript, Docker, Cloud Run</td></tr>
-</tbody></table>
-
-<br/>
-
-## Tech Stack
-
-<div align="center">
-
-**`Languages`**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white)
-
-**`Data / ML`**
-
-![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=flat-square&logo=databricks&logoColor=white)
-![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white)
-![BigQuery](https://img.shields.io/badge/BigQuery-669DF6?style=flat-square&logo=googlebigquery&logoColor=white)
-![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![scikit--learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-
-**`Cloud / Backend / Infra`**
-
-![Google Cloud](https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
-![Cloud Run](https://img.shields.io/badge/Cloud%20Run-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
-
-**`AI Systems`**
-
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
-![Gemini](https://img.shields.io/badge/Gemini-4285F4?style=flat-square&logo=google&logoColor=white)
-![Anthropic](https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=anthropic&logoColor=white)
-![Datadog](https://img.shields.io/badge/Datadog-632CA6?style=flat-square&logo=datadog&logoColor=white)
-
-</div>
-
-<br/>
-
-## Recent Wins
-
-<table><tbody>
-<tr><td><b>Intuit AI/ML Hackathon</b></td><td>2nd Place, June 2026 - calibrated underwriting PDs and profit-aware decision logic</td></tr>
-<tr><td><b>Google DeepMind Hackathon</b></td><td>Best Use of DigitalOcean, March 2026 - multimodal meeting memory and agent workflow</td></tr>
-<tr><td><b>Experian Global AI Hackathon</b></td><td>1st of 91 teams, November 2025</td></tr>
-<tr><td><b>AI Valley Robotics Hackathon</b></td><td>Best Use of Convex, November 2025</td></tr>
-</tbody></table>
-
-<br/>
-
-## Operating Range
-
-- Pointed at physical AI and world models: self-supervised/predictive representation learning, computer vision, and robotics perception that closes the loop with real hardware
-- Build production-shaped AI systems across backend, frontend, data, ML, and cloud infrastructure
-- Design decision systems with calibration, uncertainty, evals, explainability, and data-quality guardrails
-- Ship agentic workflows with MCP servers, tool use, RAG/retrieval, deterministic gates, and human review
-- Translate ambiguous business problems into measurable systems while staying close to the code
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:10B981,50:2563EB,100:0B1220&height=110&section=footer" width="100%" />
+Cognitive neuroscience at UC Irvine's Center for the Neurobiology of Learning and Memory (Stark Lab): fMRI analysis in Python for studies of spatial navigation, hippocampal pattern separation and human memory, including a self-proposed, funded study later adopted by the lab's postdocs. Currently taking Deep Learning for Computer Vision, Linear Algebra for Machine Learning and a Deep Neural Networks practicum at UC San Diego. Day job: product manager at Experian, leading 0-to-1 AI and data-science products.
