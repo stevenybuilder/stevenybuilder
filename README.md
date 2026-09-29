@@ -54,4 +54,4 @@ Applied interpretability for world models and physical AI.
 
 ## Background
 
-Cognitive neuroscience at UC Irvine's Center for the Neurobiology of Learning and Memory (Stark Lab): fMRI analysis in Python for studies of spatial navigation, hippocampal pattern separation and human memory, including a self-proposed, funded study later adopted by the lab's postdocs. Currently taking Deep Learning for Computer Vision, Linear Algebra for Machine Learning and a Deep Neural Networks practicum at UC San Diego. Day job: product manager at Experian, leading 0-to-1 AI and data-science products.
+Cognitive neuroscience at UC Irvine's Center for the Neurobiology of Learning and Memory (Stark Lab): fMRI analysis in Python for studies of spatial navigation, hippocampal pattern separation and human memory, including a self-proposed, funded study later adopted by the lab's postdocs.
