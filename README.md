@@ -2,7 +2,7 @@
 
 # Steven Yang
 
-Applied interpretability for world models and physical AI.
+Making JEPA world models more efficient and adaptable for robotics.
 
 [Writing](https://stevenybuilder.github.io) · [LinkedIn](https://www.linkedin.com/in/stevenyang99) · [X](https://x.com/stevenytechs) · [Email](mailto:stevenybusiness@gmail.com)
 
