@@ -1,4 +1,4 @@
-<a href="https://github.com/stevenybuilder"><img src="https://ghchart.rshah.org/2f855a/stevenybuilder" alt="Steven Yang's GitHub contribution graph, last twelve months" width="100%"/></a>
+<a href="https://github.com/stevenybuilder"><img src="contributions.svg" alt="Steven Yang's GitHub contribution graph, March 2026 onward" width="100%"/></a>
 
 # Steven Yang
 
