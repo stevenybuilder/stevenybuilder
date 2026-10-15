@@ -22,13 +22,12 @@ Making JEPA world models more efficient and adaptable for robotics.
 
 | | |
 |---|---|
-| **Languages** | Python, C/C++ (embedded, ESP32), Kotlin, JavaScript, TypeScript, SQL |
-| **Deep learning** | PyTorch, JAX, TensorFlow, Vision Transformers, JEPA-family predictive embeddings, frozen-encoder inference, linear and MLP probing, activation patching and steering |
-| **ML and statistics** | scikit-learn, CatBoost, pandas, NumPy, SciPy, calibration, conformal intervals, bootstrap and permutation nulls, survival and censoring, confound ablation |
-| **Robotics and embedded** | ESP32 / ESP-IDF firmware for real-time arm control and sensor tracking, computer-vision perception closing the loop with a physical actuator |
-| **GPU and systems** | Matrix-multiply performance from first principles (arithmetic intensity, roofline, memory bandwidth, mixed precision), following the Hugging Face Ultra-Scale Playbook and DeepMind's *How to Scale Your Model* (JAX); managing fleets of rented GPU instances from a CPU-only machine with locked scheduling, checkpointed resumability and pinned CUDA and PyTorch stacks |
-| **AI systems** | LLM tool loops, MCP servers, retrieval, golden-dataset evals, deterministic gates, generated-code validation |
-| **Cloud and data** | Google Cloud Run, BigQuery, Vertex AI, Gemini, Databricks Asset Bundles, Delta Lake, MLflow, Docker, FastAPI, React |
+| **Programming** | Python, C/C++, CUDA, SQL, JavaScript/TypeScript, Kotlin, Bash |
+| **Deep learning** | PyTorch, JAX, distributed training (DDP), Triton kernels, vLLM, MLflow, NumPy, pandas, scikit-learn, XGBoost |
+| **Computer vision** | OpenCV, Vision Transformers, DINO, VideoMAE, V-JEPA, Gaussian splatting, MONAI, 3D MRI volumes |
+| **Robotics and world models** | MuJoCo, Isaac Sim, LIBERO, LeRobot, pi0.5, OpenVLA, JEPA-WM, LeWorldModel, DreamerV3, MPC/CEM planning, PPO and reinforcement learning |
+| **Mechanistic interpretability** | Activation patching and steering, linear probes, TransformerLens, SAEs |
+| **Systems** | Docker, Git, Bash, multi-host GPU orchestration, AWS/GCP, FastAPI, Airflow, SQL, Databricks |
 
 ## Projects
 
