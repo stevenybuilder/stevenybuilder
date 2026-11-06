@@ -2,15 +2,15 @@
 
 # Steven Yang
 
-Making JEPA world models more efficient and adaptable for robotics.
+Creating more efficient robot foundation models for continual learning.
 
 [Writing](https://stevenybuilder.github.io) · [LinkedIn](https://www.linkedin.com/in/stevenyang99) · [X](https://x.com/stevenytechs) · [Email](mailto:stevenybusiness@gmail.com)
 
 ## Now
 
-<img src="https://stevenybuilder.github.io/assets/media/about-steven-yang-8937.webp" alt="Steven Yang beside a mountain lake" align="right" width="200"/>
+<img src="https://stevenybuilder.github.io/assets/media/about-steven-yang-headshot.webp" alt="Portrait of Steven Yang" align="right" width="150"/>
 
-- Fine-grained steering and applied interpretability for world models, to improve robotics task outcomes and scale physical AI safely.
+- More efficient robot foundation models for continual learning: models that keep learning from new experience after deployment, without forgetting old skills or being retrained from scratch.
 - Learning and memory mechanisms for recurrent state-space models in JEPA, during pretraining and at inference time, with compute efficiency as a constraint.
 - Paper accepted at the NeurIPS 2026 Workshop on Long-Context Foundation Models (LCFM): *Second-Read Divergence: Context Reuse in JEPA-WM*. An action patch in a JEPA world model matches the changed-input forecast at first, then diverges when the edited action returns as history. [Code and results](https://github.com/stevenybuilder/jepa_steering).
 - Latest write-up: [Reading and steering motion in V-JEPA 2](https://github.com/stevenybuilder/jepa_physics). Layer-wise probing, nullspace erasure and manifold steering of direction, speed and acceleration in the frozen encoder, judged by the model's own predictor.
@@ -26,7 +26,6 @@ Making JEPA world models more efficient and adaptable for robotics.
 | **Deep learning** | PyTorch, JAX, distributed training (DDP), Triton kernels, vLLM, MLflow, NumPy, pandas, scikit-learn, XGBoost |
 | **Computer vision** | OpenCV, Vision Transformers, DINO, VideoMAE, V-JEPA, Gaussian splatting, MONAI, 3D MRI volumes |
 | **Robotics and world models** | MuJoCo, Isaac Sim, LIBERO, LeRobot, pi0.5, OpenVLA, JEPA-WM, LeWorldModel, DreamerV3, MPC/CEM planning, PPO and reinforcement learning |
-| **Mechanistic interpretability** | Activation patching and steering, linear probes, TransformerLens, SAEs |
 | **Systems** | Docker, Git, Bash, multi-host GPU orchestration, AWS/GCP, FastAPI, Airflow, SQL, Databricks |
 
 ## Projects
