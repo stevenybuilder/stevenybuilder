@@ -1,5 +1,3 @@
-<a href="https://github.com/stevenybuilder"><img src="contributions.svg" alt="Steven Yang's GitHub contribution graph, March 2026 onward" width="100%"/></a>
-
 # Steven Yang
 
 Creating more efficient robot foundation models for continual learning.
@@ -62,3 +60,7 @@ Creating more efficient robot foundation models for continual learning.
 | [**Sentinel**](https://github.com/stevenybuilder/sentinel-agent-security) | Runtime security layer for autonomous agents: investigators verify claims, a policy gate blocks risky actions, confirmed attacks become AST-validated scoring rules. [Live](https://sentinelapp-delta.vercel.app). | Python, asyncio, FastAPI, React |
 | [**AI Meeting Autopilot**](https://github.com/stevenybuilder/ai-meeting-autopilot) | Live transcription, commitment extraction and action dispatch across Slack, Calendar, Gmail and BigQuery over WebSockets. | Python, Gemini, Cloud STT, Terraform |
 | [**Together**](https://github.com/stevenybuilder/together-presence-agent) | Bidirectional live speech translation with scene narration, then a generated storybook and memory video from the call. | Gemini Live, Deepgram, Veo |
+
+## Activity
+
+<img src="contributions.svg" alt="Steven Yang's GitHub contributions, last six months" width="420"/>

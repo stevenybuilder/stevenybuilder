@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Render a GitHub-style contribution graph (from a fixed start date to today) as SVG.
+"""Render a GitHub-style contribution graph (the last six months, to today) as SVG.
 
 Usage: GITHUB_TOKEN=... python3 scripts/contributions_svg.py > contributions.svg
 """
@@ -10,7 +10,7 @@ import sys
 import urllib.request
 
 LOGIN = "stevenybuilder"
-START = dt.date(2026, 3, 1)
+MONTHS_BACK = 6
 COLORS = ["#EEEEEE", "#7cd2a7", "#62b88d", "#2f855a", "#266a48"]  # NONE..FOURTH_QUARTILE
 LEVELS = {"NONE": 0, "FIRST_QUARTILE": 1, "SECOND_QUARTILE": 2, "THIRD_QUARTILE": 3, "FOURTH_QUARTILE": 4}
 FONT = ("-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, "
@@ -62,4 +62,6 @@ def render(weeks) -> str:
 
 
 if __name__ == "__main__":
-    print(render(fetch(START, dt.date.today())))
+    today = dt.date.today()
+    start = today - dt.timedelta(days=round(MONTHS_BACK * 365.25 / 12))
+    print(render(fetch(start, today)))
