@@ -6,17 +6,14 @@ Creating more efficient robot foundation models for continual learning.
 
 [Writing](https://stevenybuilder.github.io) · [LinkedIn](https://www.linkedin.com/in/stevenyang99) · [X](https://x.com/stevenytechs) · [Email](mailto:stevenybusiness@gmail.com)
 
-## Now
+## What I'm Working On
 
 <img src="https://stevenybuilder.github.io/assets/media/about-steven-yang-headshot.webp" alt="Portrait of Steven Yang" align="right" width="150"/>
 
-- More efficient robot foundation models for continual learning: models that keep learning from new experience after deployment, without forgetting old skills or being retrained from scratch.
-- Learning and memory mechanisms for recurrent state-space models in JEPA, during pretraining and at inference time, with compute efficiency as a constraint.
-- Looking for a scaling law for JEPA world models on robotics tasks: how planning success moves with model size, data and compute.
-- Paper accepted at the CoRL 2026 Workshop on Memory for Robot Foundation Models: *MemJEPA: Learning What a Latent World-Model Planner Must Remember*. A recurrent state lets a latent world-model planner act with the controlled entity hidden, but only when it is trained on erased inputs with clean prediction targets.
-- Paper accepted at the NeurIPS 2026 Workshop on Long-Context Foundation Models (LCFM): *Second-Read Divergence: Context Reuse in JEPA-WM*. An action patch in a JEPA world model matches the changed-input forecast at first, then diverges when the edited action returns as history. [Code and results](https://github.com/stevenybuilder/jepa_steering).
-- Latest write-up: [Reading and steering motion in V-JEPA 2](https://github.com/stevenybuilder/jepa_physics). Layer-wise probing, nullspace erasure and manifold steering of direction, speed and acceleration in the frozen encoder, judged by the model's own predictor.
-- Before that: [instruction following in π0.5](https://stevenybuilder.github.io/pick-it-up/), a causal pathway for instruction control in a vision-language-action model.
+- More efficient robot foundation models for continual learning: models that keep learning after deployment without forgetting old skills or retraining from scratch.
+- Learning and memory mechanisms for recurrent state-space models in JEPA, and a scaling law for JEPA world models on robotics tasks.
+- Papers: *MemJEPA: Learning What a Latent World-Model Planner Must Remember* (CoRL 2026 Workshop on Memory for Robot Foundation Models) and *Second-Read Divergence: Context Reuse in JEPA-WM* (NeurIPS 2026 Workshop on Long-Context Foundation Models, [code and results](https://github.com/stevenybuilder/jepa_steering)).
+- Write-ups: [Reading and steering motion in V-JEPA 2](https://github.com/stevenybuilder/jepa_physics) and [instruction following in π0.5](https://stevenybuilder.github.io/pick-it-up/).
 
 <br clear="right"/>
 
@@ -42,6 +39,15 @@ Creating more efficient robot foundation models for continual learning.
 | **Robotics and world models** | MuJoCo, Isaac Sim, LIBERO, LeRobot, pi0.5, OpenVLA, JEPA-WM, LeWorldModel, DreamerV3, MPC/CEM planning, PPO and reinforcement learning |
 | **Systems** | Docker, Git, Bash, multi-host GPU orchestration, AWS/GCP, FastAPI, Airflow, SQL, Databricks |
 
+## Awards
+
+| | |
+|---|---|
+| Intuit AI/ML Hackathon, June 2026 | 2nd place |
+| Google DeepMind Hackathon, March 2026 | Best Use of DigitalOcean |
+| Experian Global AI Hackathon, November 2025 | 1st of 91 teams |
+| AI Valley Robotics Hackathon, November 2025 | Best Use of Convex |
+
 ## Projects
 
 | | | |
@@ -56,13 +62,3 @@ Creating more efficient robot foundation models for continual learning.
 | [**Sentinel**](https://github.com/stevenybuilder/sentinel-agent-security) | Runtime security layer for autonomous agents: investigators verify claims, a policy gate blocks risky actions, confirmed attacks become AST-validated scoring rules. [Live](https://sentinelapp-delta.vercel.app). | Python, asyncio, FastAPI, React |
 | [**AI Meeting Autopilot**](https://github.com/stevenybuilder/ai-meeting-autopilot) | Live transcription, commitment extraction and action dispatch across Slack, Calendar, Gmail and BigQuery over WebSockets. | Python, Gemini, Cloud STT, Terraform |
 | [**Together**](https://github.com/stevenybuilder/together-presence-agent) | Bidirectional live speech translation with scene narration, then a generated storybook and memory video from the call. | Gemini Live, Deepgram, Veo |
-
-## Awards
-
-| | |
-|---|---|
-| Intuit AI/ML Hackathon, June 2026 | 2nd place |
-| Google DeepMind Hackathon, March 2026 | Best Use of DigitalOcean |
-| Experian Global AI Hackathon, November 2025 | 1st of 91 teams |
-| AI Valley Robotics Hackathon, November 2025 | Best Use of Convex |
-
