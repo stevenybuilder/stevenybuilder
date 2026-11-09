@@ -1,6 +1,6 @@
 # Steven Yang
 
-Creating more efficient robot foundation models for continual learning.
+Creating more efficient robot foundation models based on deployment data that can perform well on long horizon and complex planning tasks in spatial navigation.
 
 [Writing](https://stevenybuilder.github.io) · [LinkedIn](https://www.linkedin.com/in/stevenyang99) · [X](https://x.com/stevenytechs) · [Email](mailto:stevenybusiness@gmail.com)
 
