@@ -21,7 +21,7 @@ Creating more efficient robot foundation models for continual learning.
 
 **Spatial navigation and memory research.** Student researcher at UC Irvine's Center for the Neurobiology of Learning and Memory (Stark Lab), 2017 to 2020: fMRI pipelines and human memory experiments on spatial navigation and hippocampal pattern separation. Proposed and secured funding for a study of 150+ participants that the lab's postdocs carried forward, and led a team of five undergraduates. This is where the interest in memory in world-model planners started.
 
-**Industry.** Technical product manager for AI and data products at Experian, 2021 to 2026: built the evaluation harness for its first AI dispute assistant (7M+ consumers) and led three engineering teams on its Google Gemini integration. Earlier, co-authored a report to the U.S. Congress on AI policy at the USPTO Office of the Chief Economist.
+**Industry.** Technical product manager for AI and data products at Experian, 2021 to 2026: built the evaluation harness for its first AI dispute assistant (7M+ consumers) and led three engineering teams on its Google Gemini integration. Before that, as a summer 2019 intern in the Office of the Chief Economist at the U.S. Patent and Trademark Office, co-authored with four staff economists an economics report on AI, technology policy and innovation that Congress had commissioned from the office.
 
 **Teaching.** Section leader for Stanford's first open offering of Probability for AI (Professor Chris Piech; 10,000 students), selected from 2,700+ applicants.
 
