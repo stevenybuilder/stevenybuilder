@@ -20,6 +20,18 @@ Creating more efficient robot foundation models for continual learning.
 
 <br clear="right"/>
 
+## Background
+
+**Research.** Two single-author workshop papers in 2026 on memory and context reuse in JEPA world-model planners: MemJEPA at the CoRL 2026 Workshop on Memory for Robot Foundation Models, with the full-length version under review, and Second-Read Divergence at the NeurIPS 2026 Workshop on Long-Context Foundation Models. The experiments run on rented multi-GPU fleets with pre-registered reads, sealed held-out sets and three seeds per cell; every number in the papers traces to a per-episode record. Earlier in 2026: reproduced Meta FAIR's *Interpreting Physics in Video World Models* on V-JEPA 2 in 36 hours and extended it from reading motion to steering it (commissioned by Sonia Joseph, World Mechanics), and traced instruction following in π0.5 with K/V-cache activation patching scored by closed-loop success in LIBERO.
+
+**Neuroscience.** Student researcher at UC Irvine's Center for the Neurobiology of Learning and Memory (Stark Lab), 2017 to 2020: computer-vision and deep-learning pipelines in Python for fMRI studies of spatial navigation and hippocampal pattern separation, and memory experiments with human participants. Proposed and secured funding for the lab's first study beyond its hippocampus focus, collected and analysed data from 150+ participants, and presented it at the UCI research symposium; its use of the Mnemonic Similarity Task was taken up by the lab's postdocs. Led a team of five undergraduates. This work is the origin of the current research on memory in world-model planners.
+
+**Industry.** Technical product manager for AI and data products at Experian, New York, 2021 to 2026. Designed and built the evaluation harness for Experian's first AI dispute assistant (7M+ consumers): golden datasets, automated regression tests and open-source vision-LLM OCR intake. Led three engineering teams building the MCP servers and tool integrations for Experian's 0-to-1 Google Gemini integration (projected 1.2M users). Re-architected the API layer of a 100K-user financial product, removing 99% of customer-visible errors (Experian Excellence Award). Built an LLM agent that triages data-breach reports, adopted across business units, cutting response time from about five days to hours. Earlier, co-authored a report to the U.S. Congress on AI and innovation policy at the USPTO Office of the Chief Economist.
+
+**Teaching.** Section leader and teaching assistant for Stanford's first open offering of Probability for AI (Professor Chris Piech; 10,000 students), selected from 2,700+ applicants. Designed and led hands-on Codex and Claude Code summits for 30 engineers and product managers at Experian, including safeguards for LLM systems.
+
+**Education.** Computer science and mathematics coursework at UC San Diego and UCLA, 2026 to present (GPA 4.0): deep learning for computer vision, linear algebra for machine learning, probability and statistics for AI, embedded machine learning. B.A., UC Irvine, 2021, Phi Beta Kappa.
+
 ## Skills
 
 | | |
@@ -54,6 +66,3 @@ Creating more efficient robot foundation models for continual learning.
 | Experian Global AI Hackathon, November 2025 | 1st of 91 teams |
 | AI Valley Robotics Hackathon, November 2025 | Best Use of Convex |
 
-## Background
-
-Cognitive neuroscience at UC Irvine's Center for the Neurobiology of Learning and Memory (Stark Lab): fMRI analysis in Python for studies of spatial navigation, hippocampal pattern separation and human memory, including a self-proposed, funded study later adopted by the lab's postdocs.
