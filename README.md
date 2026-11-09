@@ -17,7 +17,7 @@ Creating more efficient robot foundation models for continual learning.
 
 ## Background
 
-**Research.** Single-author papers at CoRL 2026 (Memory for Robot Foundation Models workshop; full-length version under review) and NeurIPS 2026 (Long-Context Foundation Models workshop) on memory and context reuse in JEPA world-model planners, run on rented multi-GPU fleets with pre-registered reads and sealed held-out sets. Earlier in 2026: reproduced and extended Meta FAIR's physics-interpretability work on V-JEPA 2 for World Mechanics, and traced instruction following in π0.5 with activation patching scored by closed-loop task success.
+**Publications.** Two single-author workshop papers in 2026 (CoRL and NeurIPS) on memory and context reuse in JEPA world-model planners, with the CoRL paper's full-length version under review. Experiments run on rented multi-GPU fleets with pre-registered reads and sealed held-out sets. Earlier in 2026: interpretability studies of V-JEPA 2 (for World Mechanics) and of instruction following in π0.5.
 
 **Spatial navigation and memory research.** Student researcher at UC Irvine's Center for the Neurobiology of Learning and Memory (Stark Lab), 2017 to 2020: fMRI pipelines and human memory experiments on spatial navigation and hippocampal pattern separation. Proposed and secured funding for a study of 150+ participants that the lab's postdocs carried forward, and led a team of five undergraduates. This is where the interest in memory in world-model planners started.
 
