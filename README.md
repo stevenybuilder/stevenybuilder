@@ -17,6 +17,8 @@ Creating more efficient robot foundation models based on deployment data that ca
 
 ## Background
 
+Incoming MSCS student, Spring 2027.
+
 **Publications.** Two single-author workshop papers in 2026 (CoRL and NeurIPS) on memory and context reuse in JEPA world-model planners, with the CoRL paper's full-length version under review. Experiments run on rented multi-GPU fleets with pre-registered reads and sealed held-out sets. Earlier in 2026: interpretability studies of V-JEPA 2 (for World Mechanics) and of instruction following in π0.5.
 
 **Spatial navigation and memory research.** Student researcher at UC Irvine's Center for the Neurobiology of Learning and Memory (Stark Lab), 2017 to 2020: fMRI pipelines and human memory experiments on spatial navigation and hippocampal pattern separation. Proposed and secured funding for a study of 150+ participants that the lab's postdocs carried forward, and led a team of five undergraduates. This is where the interest in memory in world-model planners started.
@@ -25,7 +27,7 @@ Creating more efficient robot foundation models based on deployment data that ca
 
 **Teaching.** Section leader for Stanford's first open offering of Probability for AI (Professor Chris Piech; 10,000 students), selected from 2,700+ applicants.
 
-**Education.** Deep Learning for Computer Vision; Practicum for Deep Neural Networks; Linear Algebra for Machine Learning; Probability and Statistics for AI; Embedded Machine Learning; Multivariable Calculus; Discrete Math; Data Structures and Algorithms.
+**Relevant Coursework.** Deep Learning for Computer Vision; Practicum for Deep Neural Networks; Linear Algebra for Machine Learning; Probability and Statistics for AI; Embedded Machine Learning; Multivariable Calculus; Discrete Math; Data Structures and Algorithms.
 
 ## Skills
 
