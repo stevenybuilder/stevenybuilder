@@ -12,6 +12,8 @@ Creating more efficient robot foundation models for continual learning.
 
 - More efficient robot foundation models for continual learning: models that keep learning from new experience after deployment, without forgetting old skills or being retrained from scratch.
 - Learning and memory mechanisms for recurrent state-space models in JEPA, during pretraining and at inference time, with compute efficiency as a constraint.
+- Looking for a scaling law for JEPA world models on robotics tasks: how planning success moves with model size, data and compute.
+- Paper accepted at the CoRL 2026 Workshop on Memory for Robot Foundation Models: *MemJEPA: Learning What a Latent World-Model Planner Must Remember*. A recurrent state lets a latent world-model planner act with the controlled entity hidden, but only when it is trained on erased inputs with clean prediction targets.
 - Paper accepted at the NeurIPS 2026 Workshop on Long-Context Foundation Models (LCFM): *Second-Read Divergence: Context Reuse in JEPA-WM*. An action patch in a JEPA world model matches the changed-input forecast at first, then diverges when the edited action returns as history. [Code and results](https://github.com/stevenybuilder/jepa_steering).
 - Latest write-up: [Reading and steering motion in V-JEPA 2](https://github.com/stevenybuilder/jepa_physics). Layer-wise probing, nullspace erasure and manifold steering of direction, speed and acceleration in the frozen encoder, judged by the model's own predictor.
 - Before that: [instruction following in π0.5](https://stevenybuilder.github.io/pick-it-up/), a causal pathway for instruction control in a vision-language-action model.
