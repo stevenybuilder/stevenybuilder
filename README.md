@@ -25,7 +25,7 @@ Creating more efficient robot foundation models for continual learning.
 
 **Teaching.** Section leader for Stanford's first open offering of Probability for AI (Professor Chris Piech; 10,000 students), selected from 2,700+ applicants.
 
-**Education.** Computer science and mathematics coursework at UC San Diego and UCLA, 2026 to present (GPA 4.0). B.A., UC Irvine, 2021, Phi Beta Kappa.
+**Education.** Deep Learning for Computer Vision; Practicum for Deep Neural Networks; Linear Algebra for Machine Learning; Probability and Statistics for AI; Embedded Machine Learning; Multivariable Calculus; Discrete Math; Data Structures and Algorithms.
 
 ## Skills
 
