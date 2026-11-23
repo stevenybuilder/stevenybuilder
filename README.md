@@ -9,8 +9,8 @@ Creating more efficient robot foundation models based on deployment data that ca
 <img src="https://stevenybuilder.github.io/assets/media/about-steven-yang-headshot.webp" alt="Portrait of Steven Yang" align="right" width="150"/>
 
 - More efficient robot foundation models for continual learning: models that keep learning after deployment without forgetting old skills or retraining from scratch.
-- Learning and memory mechanisms for recurrent state-space models in JEPA, and a scaling law for JEPA world models on robotics tasks.
-- Papers: *MemJEPA: Learning What a Latent World-Model Planner Must Remember* (CoRL 2026 Workshop on Memory for Robot Foundation Models) and *Second-Read Divergence: Context Reuse in JEPA-WM* (NeurIPS 2026 Workshop on Long-Context Foundation Models, [code and results](https://github.com/stevenybuilder/jepa_steering)).
+- Learning and memory mechanisms for state-space models in JEPA, and a scaling law for JEPA world models on robotics tasks.
+- Papers: accepted at the CoRL 2026 Workshop on Memory for Robot Foundation Models and the NeurIPS 2026 Workshop on Long-Context Foundation Models ([code and results](https://github.com/stevenybuilder/jepa_steering)).
 - Write-ups: [Reading and steering motion in V-JEPA 2](https://github.com/stevenybuilder/jepa_physics) and [instruction following in π0.5](https://stevenybuilder.github.io/pick-it-up/).
 
 <br clear="right"/>
@@ -19,15 +19,11 @@ Creating more efficient robot foundation models based on deployment data that ca
 
 Incoming MSCS student, Spring 2027.
 
-**Publications.** Two single-author workshop papers in 2026 (CoRL and NeurIPS) on memory and context reuse in JEPA world-model planners, with the CoRL paper's full-length version under review. Experiments run on rented multi-GPU fleets with pre-registered reads and sealed held-out sets. Earlier in 2026: interpretability studies of V-JEPA 2 (for World Mechanics) and of instruction following in π0.5.
+**Publications.** Two single-author workshop papers in 2026 (CoRL and NeurIPS) on memory and context reuse in JEPA world-model planners; the CoRL paper's full-length version is under review.
 
-**Spatial navigation and memory research.** Student researcher at UC Irvine's Center for the Neurobiology of Learning and Memory (Stark Lab), 2017 to 2020: fMRI pipelines and human memory experiments on spatial navigation and hippocampal pattern separation. Proposed and secured funding for a study of 150+ participants that the lab's postdocs carried forward, and led a team of five undergraduates. This is where the interest in memory in world-model planners started.
+**Spatial navigation and memory research.** Student researcher at UC Irvine's Center for the Neurobiology of Learning and Memory (Stark Lab), 2017 to 2020: fMRI experiments on spatial navigation and hippocampal pattern separation.
 
-**Industry.** Technical product manager for AI and data products at Experian, 2021 to 2026: built the evaluation harness for its first AI dispute assistant (7M+ consumers) and led three engineering teams on its Google Gemini integration. Before that, as a summer 2019 intern in the Office of the Chief Economist at the U.S. Patent and Trademark Office, co-authored with four staff economists an economics report on AI, technology policy and innovation that Congress had commissioned from the office.
-
-**Teaching.** Section leader for Stanford's first open offering of Probability for AI (Professor Chris Piech; 10,000 students), selected from 2,700+ applicants.
-
-**Relevant Coursework.** Deep Learning for Computer Vision; Practicum for Deep Neural Networks; Linear Algebra for Machine Learning; Probability and Statistics for AI; Embedded Machine Learning; Multivariable Calculus; Discrete Math; Data Structures and Algorithms.
+**Teaching.** Section leader for Stanford's Probability for AI (Professor Chris Piech).
 
 ## Skills
 
