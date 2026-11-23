@@ -21,7 +21,7 @@ Incoming MSCS student, Spring 2027.
 
 **Publications.** Two single-author workshop papers in 2026 (CoRL and NeurIPS) on memory and context reuse in JEPA world-model planners.
 
-**Spatial navigation and memory research.** Student researcher at UC Irvine's Center for the Neurobiology of Learning and Memory (Stark Lab), 2017 to 2020: fMRI experiments on spatial navigation and hippocampal pattern separation.
+**Spatial navigation and memory research.** Student researcher at UC Irvine's Center for the Neurobiology of Learning and Memory (Stark Lab), 2017 to 2020: built scalable computer vision and deep learning pipelines in Python for fMRI brain images in studies of spatial navigation and hippocampal pattern separation.
 
 **Teaching.** Section leader for Stanford's Probability for AI (Professor Chris Piech).
 
